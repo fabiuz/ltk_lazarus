@@ -1,0 +1,8 @@
+object frmGerador_Palavras: TfrmGerador_Palavras
+  Left = 451
+  Height = 534
+  Top = 211
+  Width = 822
+  Caption = 'Gerador de palavras'
+  LCLVersion = '1.4.2.0'
+end

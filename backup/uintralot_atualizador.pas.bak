@@ -1,0 +1,68 @@
+unit uIntralot_Atualizador;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+      Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs,
+			 StdCtrls, ExtCtrls;
+
+type
+
+			{ TfrmIntralot_Extrator }
+
+      TfrmIntralot_Extrator = class(TForm)
+						btnGerar_por_jogo: TButton;
+						btnGerar_por_Data: TButton;
+						btnAbrirDiretorio: TButton;
+						cmbJogoTipo: TComboBox;
+						edDiretorio: TEdit;
+						GroupBox1: TGroupBox;
+						GroupBox2: TGroupBox;
+						GroupBox3: TGroupBox;
+						GroupBox4: TGroupBox;
+						edJogo_Inicial: TLabeledEdit;
+						edJogo_Final: TLabeledEdit;
+						LabeledEdit3: TLabeledEdit;
+						LabeledEdit4: TLabeledEdit;
+						dlgDiretorio: TSelectDirectoryDialog;
+						procedure btnAbrirDiretorioClick(Sender: TObject);
+						procedure edDiretorioChange(Sender: TObject);
+      private
+            { private declarations }
+      public
+            { public declarations }
+      end;
+
+
+
+implementation
+
+{$R *.lfm}
+
+{ TfrmIntralot_Extrator }
+
+procedure TfrmIntralot_Extrator.btnAbrirDiretorioClick(Sender: TObject);
+begin
+      if dlgDiretorio.Execute then begin
+        dlgDiretorio.InitialDir:='.';
+        edDiretorio.Text := dlgDiretorio.FileName;
+			end;
+end;
+
+procedure TfrmIntralot_Extrator.edDiretorioChange(Sender: TObject);
+begin
+      // Se o usuário não seleciona um diretório, ou deixa em branco, desativar controles.
+      if Trim(edDiretorio.Text) = '' then
+      begin
+        self.btnGerar_por_jogo.Enabled := false;
+        self.btnGerar_por_Data.Enabled := false;
+			end else begin
+        btnGerar_por_Jogo.Enabled := true;
+        btnGerar_por_Data.Enabled := true;
+			end;
+end;
+
+end.
+

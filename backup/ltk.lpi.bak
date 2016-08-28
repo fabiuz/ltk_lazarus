@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="ltk"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(TestDir)/publishedproject/fabius"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="indylaz"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SynEdit"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LazControls"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="ltk.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ultk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLtk"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dmltk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmModulo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmLtk"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGerador_Aleatorio"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ubanco_de_dados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBanco_de_Dados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uBanco_de_Dados"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uatualizar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAtualizar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAtualizar"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uconversor_minas5.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uConversor_Minas5"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uhtml_analisador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uHtml_Analisador"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uintralot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uIntralot"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ulotofacil.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLotofacil"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="ugerador_permutacao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGerador_Permutacao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="upermutador_thread.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPermutador_Thread"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="uintralot_extrator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmIntralot_Extrator"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uintralot_extrator_de_resultados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uIntralot_extrator_de_resultados"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="gerador_de_arranjo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGeradorArranjo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ulotofacilgerador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLotofacilGerador"/>
+      </Unit15>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="ltk"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="RunError(232)"/>
+        <Enabled Value="False"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

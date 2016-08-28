@@ -1,0 +1,153 @@
+unit uBanco_de_Dados;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ButtonPanel,
+   ValEdit;
+
+type
+
+  { TfrmBanco_de_Dados }
+
+  TfrmBanco_de_Dados = class(TForm)
+    btnBanco_Resposta: TButtonPanel;
+    lista_conf_banco: TValueListEditor;
+    procedure btnBanco_RespostaClick(Sender: TObject);
+    procedure OKButtonClick(Sender: TObject);
+  private
+    strBanco_de_Dados, strUsuario, strSenha: string;
+    strHost, strPorta: string;
+    arquivo_cfg: TextFile;
+
+    procedure Salvar_Configuracao;
+    procedure Carregar_Configuracao;
+
+
+    { private declarations }
+  public
+    { public declarations }
+    constructor Create(AOwner:TComponent); override;
+    //constructor Create(strArquivo: string); override;
+  end;
+
+{
+ var
+   frmBanco_de_Dados: TfrmBanco_de_Dados;
+}
+
+implementation
+
+{$R *.lfm}
+
+{ TfrmBanco_de_Dados }
+
+procedure TfrmBanco_de_Dados.OKButtonClick(Sender: TObject);
+begin
+  strHost := lista_conf_banco.Values['Host'];
+  strPorta := lista_conf_banco.Values['Porta'];
+  strBanco_de_dados := lista_conf_banco.Values['Banco'];
+  strUsuario := lista_conf_banco.Values['Usuário'];
+  strSenha := lista_conf_banco.Values['Senha'];
+end;
+
+procedure TfrmBanco_de_Dados.Salvar_Configuracao;
+begin
+  System.Assign(arquivo_cfg, './ltk_banco.cfg');
+  Rewrite(arquivo_cfg);
+
+  WriteLn(arquivo_cfg, 'host');
+  WriteLn(arquivo_cfg, strHost);
+  WriteLn(arquivo_cfg, 'porta');
+  WriteLn(arquivo_cfg, strPorta);
+  WriteLn(arquivo_cfg, 'banco');
+  WriteLn(arquivo_cfg, strBanco_de_Dados);
+  WriteLn(arquivo_cfg, 'usuario');
+  WriteLn(arquivo_cfg, strUsuario);
+  WriteLn(arquivo_cfg, 'senha');
+  WriteLn(arquivo_cfg, strSenha);
+
+  System.Close(arquivo_cfg);
+end;
+
+procedure TfrmBanco_de_Dados.Carregar_Configuracao;
+var
+  strTemp: AnsiString;
+  fArquivo: TFileStream;
+begin
+  // Se o arquivo não existe, iremos criar as configurações padrões.
+  if FileExists('./ltk_banco.cfg') = false then begin
+    strBanco_de_Dados := 'ltk';
+    strUsuario := 'ltk';
+    strSenha := 'ltk';
+    strHost := 'localhost';
+    strPorta := '5432';
+
+    self.Salvar_Configuracao;
+  end;
+
+  fArquivo := TFileStream.Create('./ltk_banco.cfg', fmOpenWrite);
+
+
+  fArquivo.Write('Teste2', 20);
+  fArquivo.Free;
+  fArquivo := nil;
+
+
+
+
+
+end;
+
+procedure TfrmBanco_de_Dados.btnBanco_RespostaClick(Sender: TObject);
+begin
+
+end;
+
+ constructor TfrmBanco_de_Dados.Create(AOwner: TComponent);
+ begin
+   Inherited;
+
+   Self.Carregar_Configuracao;
+
+
+
+   {
+    // Se o arquivo não existe, iremos criar com as configurações padrões
+    if FileExists('./ltk_banco_de_dados.cfg') = false then begin
+      strBanco_de_Dados := 'ltk';
+      strUsuario := 'ltk';
+      strSenha := 'ltk';
+      strHost := 'localhost';
+      strPorta := '5432';
+
+      System.Assign(arquivo_cfg, './ltk_banco_de_dados.cfg');
+      Rewrite(arquivo_cfg);
+      WriteLn(arquivo_cfg, 'host:localhost');
+      WriteLn(arquivo_cfg, 'porta:5432');
+      WriteLn(arquivo_cfg, 'banco:ltk');
+      WriteLn(arquivo_cfg, 'usuario:ltk');
+      WriteLn(arquivo_cfg, 'senha:ltk');
+
+      System.Close(arquivo_cfg);
+    end;
+   }
+ end;
+
+
+
+ {
+  constructor TfrmBanco_de_Dados.Create(strArquivo: string);
+  begin
+   // Vamos verificar se arquivo existe
+    if FileExists(strArquivo) = true then begin
+      Raise Exception.Create('Arquivo já existe');
+    end;
+  end;
+
+
+ }
+end.
+

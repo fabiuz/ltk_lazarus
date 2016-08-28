@@ -1,0 +1,9 @@
+object frmLtk: TfrmLtk
+  Left = 291
+  Height = 314
+  Top = 134
+  Width = 514
+  Caption = 'Gerenciador LTK'
+  FormStyle = fsMDIForm
+  LCLVersion = '1.4.2.0'
+end

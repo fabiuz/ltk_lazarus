@@ -1,0 +1,134 @@
+unit uLotofacilGerador;
+
+{$mode objfpc}{$H+}
+
+interface
+uses
+      Classes, SysUtils, strUtils;
+
+const LotofacilNumeros: array[1..25] of AnsiString = (
+      '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12',
+      '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25');
+
+type
+
+
+		{ TLotofacil }
+
+    TLotofacil = class
+      private
+        Jogo15Numeros: array[1..15] of AnsiString;
+        Jogo16Numeros: array[1..16] of AnsiString;
+        Jogo17Numeros: array[1..17] of AnsiString;
+        Jogo18Numeros: array[1..18] of AnsiString;
+
+        // Indica se o número está ativado.
+        Jogo25Numeros: array[1..25] of boolean;
+
+        // Indica o strsql guardado.
+        sqlLista: TStringList;
+
+        // Conta os ítens já gerados.
+        contadorCombinacoes: int64;
+
+				procedure GerarSubConjunto;
+
+
+
+      public
+        procedure Gerar15Numeros;
+		end;
+
+implementation
+
+{ TLotofacil }
+
+procedure TLotofacil.Gerar15Numeros;
+var
+			uA, uB, uC, uD, uE, uF, uG, uH, uI, uJ, uK, uL, uM, uN, uO: Integer;
+begin
+  for uA := 1 to 25 do
+  for uB := uA + 1 to 25 do
+  for uC := uB + 1 to 25 do
+  for uD := uC + 1 to 25 do
+  for uE := uD + 1 to 25 do
+  for uF := uE + 1 to 25 do
+  for uG := uF + 1 to 25 do
+  for uH := uG + 1 to 25 do
+  for uI := uH + 1 to 25 do
+  for uJ := uI + 1 to 25 do
+  for uK := uJ + 1 to 25 do
+  for uL := uK + 1 to 25 do
+  for uM := uL + 1 to 25 do
+  for uN := uM + 1 to 25 do
+  for uO := uN + 1 to 25 do
+  begin
+    Jogo15Numeros[1 ] := LotofacilNumeros[uA];
+    Jogo15Numeros[2 ] := LotofacilNumeros[uB];
+    Jogo15Numeros[3 ] := LotofacilNumeros[uC];
+    Jogo15Numeros[4 ] := LotofacilNumeros[uD];
+    Jogo15Numeros[5 ] := LotofacilNumeros[uE];
+    Jogo15Numeros[6 ] := LotofacilNumeros[uF];
+    Jogo15Numeros[7 ] := LotofacilNumeros[uG];
+    Jogo15Numeros[8 ] := LotofacilNumeros[uH];
+    Jogo15Numeros[9 ] := LotofacilNumeros[uI];
+    Jogo15Numeros[10] := LotofacilNumeros[uJ];
+    Jogo15Numeros[11] := LotofacilNumeros[uK];
+    Jogo15Numeros[12] := LotofacilNumeros[uL];
+    Jogo15Numeros[13] := LotofacilNumeros[uM];
+    Jogo15Numeros[14] := LotofacilNumeros[uN];
+    Jogo15Numeros[15] := LotofacilNumeros[uO];
+        GerarSubconjunto;
+	end;
+
+end;
+
+// Gera todos os subconjuntos de um número dado.
+procedure TLotofacil.GerarSubConjunto;
+var
+			uA, uB, uC, uD, uE, uF, uG, uH, uI, uJ, uK, uL, uM, uN, uO: Integer;
+      strSql : AnsiString;
+begin
+  for uA := 1 to 15 do
+  begin
+    strSql := 'Insert into ltk.jogo_combinacoes (jogo_tipo, qt_bolas, ';
+    strSql += 'bolas_combinadas, b1, par, impar, cmb_par_impar, ';
+    strSql += 'rank_posicao, ';
+    strSql += 'cmb_bola_base, cmb_bola_base_qt, ';
+    strSql += 'pos_1, ';
+    strSql += 'num_' + Jogo15Numeros[uA];
+    strSql += ') values (';
+
+    // JogoTipo
+    strSql += AnsiQuotedStr('LOTOFACIL', ''') + ', ';
+    // qt_bolas
+    strSql += '1, ';
+    // bolas_combinadas
+
+
+
+
+	end;
+
+
+  for uB := uA + 1 to 25 do
+  for uC := uB + 1 to 25 do
+  for uD := uC + 1 to 25 do
+  for uE := uD + 1 to 25 do
+  for uF := uE + 1 to 25 do
+  for uG := uF + 1 to 25 do
+  for uH := uG + 1 to 25 do
+  for uI := uH + 1 to 25 do
+  for uJ := uI + 1 to 25 do
+  for uK := uJ + 1 to 25 do
+  for uL := uK + 1 to 25 do
+  for uM := uL + 1 to 25 do
+  for uN := uM + 1 to 25 do
+  for uO := uN + 1 to 25 do
+  begin
+
+	end;
+end;
+
+end.
+

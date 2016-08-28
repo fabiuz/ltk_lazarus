@@ -1,0 +1,49 @@
+object frmBanco_de_Dados: TfrmBanco_de_Dados
+  Left = 956
+  Height = 302
+  Top = 310
+  Width = 348
+  Caption = 'Alterar opções do banco de dados'
+  ClientHeight = 302
+  ClientWidth = 348
+  LCLVersion = '1.6.0.2'
+  object btnBanco_Resposta: TButtonPanel
+    Left = 6
+    Height = 42
+    Top = 254
+    Width = 336
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    OKButton.OnClick = OKButtonClick
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 0
+    OnClick = btnBanco_RespostaClick
+    ShowButtons = [pbOK, pbCancel]
+  end
+  object lista_conf_banco: TValueListEditor
+    Left = 8
+    Height = 168
+    Top = 8
+    Width = 336
+    AutoAdvance = aaDown
+    FixedCols = 0
+    RowCount = 6
+    TabOrder = 1
+    Strings.Strings = (
+      'Host='
+      'Porta='
+      'Banco='
+      'Usuário='
+      'Senha='
+    )
+    ColWidths = (
+      64
+      257
+    )
+  end
+end

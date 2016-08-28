@@ -1,0 +1,161 @@
+object frmGerador_Permutacao: TfrmGerador_Permutacao
+  Left = 575
+  Height = 332
+  Top = 71
+  Width = 520
+  Caption = 'Gerador de permutações'
+  ClientHeight = 332
+  ClientWidth = 520
+  Constraints.MaxWidth = 520
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.2'
+  object cmbJogo_Tipo: TComboBox
+    Left = 48
+    Height = 33
+    Top = 8
+    Width = 164
+    ItemHeight = 0
+    OnChange = cmbJogo_TipoChange
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Jogo: TLabel
+    Left = 8
+    Height = 21
+    Top = 16
+    Width = 30
+    Caption = 'Jogo'
+    ParentColor = False
+  end
+  object cmbJogo_Com: TComboBox
+    Left = 264
+    Height = 33
+    Top = 8
+    Width = 164
+    ItemHeight = 0
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object Jogo1: TLabel
+    Left = 224
+    Height = 21
+    Top = 16
+    Width = 31
+    Caption = 'com:'
+    ParentColor = False
+  end
+  object btnGerar: TButton
+    Left = 432
+    Height = 31
+    Top = 8
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = '&Gerar'
+    OnClick = btnGerarClick
+    TabOrder = 2
+  end
+  object edDiretorio: TLabeledEdit
+    Left = 8
+    Height = 33
+    Top = 64
+    Width = 420
+    EditLabel.AnchorSideLeft.Control = edDiretorio
+    EditLabel.AnchorSideRight.Control = edDiretorio
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = edDiretorio
+    EditLabel.Left = 8
+    EditLabel.Height = 21
+    EditLabel.Top = 40
+    EditLabel.Width = 420
+    EditLabel.Caption = 'Diretório (*.sql)'
+    EditLabel.ParentColor = False
+    TabOrder = 3
+    Text = 'gerado_permutacao_sql'
+    OnChange = edDiretorioChange
+  end
+  object btnLocalizar: TButton
+    Left = 432
+    Height = 31
+    Top = 62
+    Width = 75
+    Anchors = [akRight]
+    Caption = '&Localizar...'
+    TabOrder = 4
+  end
+  object spLinhas_por_Arquivo: TSpinEdit
+    Left = 432
+    Height = 33
+    Top = 104
+    Width = 75
+    Increment = 1000
+    MaxValue = 5000000
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 21
+    Top = 112
+    Width = 413
+    Caption = 'Linhas por arquivo:(de 0 a 5 milhões)[0 (zero) um único arquivo:]'
+    ParentColor = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 128
+    Top = 136
+    Width = 500
+    Caption = 'LOG'
+    ClientHeight = 106
+    ClientWidth = 498
+    TabOrder = 6
+    object mmLog: TMemo
+      Left = 0
+      Height = 106
+      Top = 0
+      Width = 498
+      Align = alClient
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+  end
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 20
+    Top = 312
+    Width = 520
+    Align = alBottom
+    TabOrder = 7
+  end
+  object btnParar: TButton
+    Left = 432
+    Height = 31
+    Top = 272
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = '&Parar'
+    OnClick = btnGerarClick
+    TabOrder = 8
+  end
+  object rotulo_status: TLabel
+    Left = 16
+    Height = 21
+    Top = 284
+    Width = 4
+    Caption = ' '
+    ParentColor = False
+  end
+  object chkAtivar_Desativar_Log: TCheckBox
+    Left = 8
+    Height = 25
+    Top = 264
+    Width = 91
+    Caption = '&Ativar log.'
+    OnChange = chkAtivar_Desativar_LogChange
+    TabOrder = 9
+  end
+  object dlgDiretorio: TSelectDirectoryDialog
+    left = 320
+    top = 216
+  end
+end

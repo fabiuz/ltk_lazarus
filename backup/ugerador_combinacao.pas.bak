@@ -1,0 +1,51 @@
+unit uGerador_Combinacao;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics,
+  Dialogs, StdCtrls;
+
+type
+
+  { TfrmGerador_Combinacao }
+
+  TfrmGerador_Combinacao = class(TForm)
+    cmbJogo_Tipo: TComboBox;
+    Jogo: TLabel;
+    procedure FormCreate(Sender: TObject);
+  private
+    procedure Preencher_Lista_de_Jogo;
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  frmGerador_Combinacao: TfrmGerador_Combinacao;
+
+implementation
+
+{$R *.lfm}
+
+{ TfrmGerador_Combinacao }
+
+procedure TfrmGerador_Combinacao.FormCreate(Sender: TObject);
+begin
+end;
+
+procedure TfrmGerador_Combinacao.Preencher_Lista_de_Jogo;
+var
+  strJogo: array[1..7] of string = ('DUPLASENA', 'LOTOFACIL', 'LOTOMANIA', 'MEGASENA', 'QUINA',
+                         'INTRALOT_MINAS_5', 'INTRALOT_LOTOMINAS');
+	iA: Integer;
+begin
+     for iA := Low(strJogo) to High(strJogo) do begin
+         cmbJogo_Tipo.Items.Add(strJogo[iA]);
+		 end;
+end;
+
+end.
+

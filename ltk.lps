@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Count="2" Active="Release">
+      <Item1 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="ltk_debug"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2Set"/>
+              <UseHeaptrc Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShoLineNum Value="True"/>
+            </Verbosity>
+          </Other>
+        </CompilerOptions>
+      </Item1>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="ltk"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <Units Count="43">
+      <Unit0>
+        <Filename Value="ltk.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="41" Y="5"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ultk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uLtk"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="63"/>
+        <CursorPos X="44" Y="85"/>
+        <UsageCount Value="200"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dmltk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmModulo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmLtk"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="48" Y="50"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGerador_Aleatorio"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="301"/>
+        <CursorPos X="23" Y="371"/>
+        <UsageCount Value="200"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ubanco_de_dados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBanco_de_Dados"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uBanco_de_Dados"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="44" Y="17"/>
+        <UsageCount Value="207"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uatualizar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAtualizar"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAtualizar"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="50" Y="4"/>
+        <UsageCount Value="216"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uconversor_minas5.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uConversor_Minas5"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="45" Y="11"/>
+        <UsageCount Value="200"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uhtml_analisador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uHtml_Analisador"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="297"/>
+        <CursorPos Y="311"/>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uintralot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uIntralot"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1275"/>
+        <CursorPos X="6" Y="1295"/>
+        <UsageCount Value="209"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ulotofacil.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLotofacil"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="7" Y="32"/>
+        <UsageCount Value="214"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="ugerador_permutacao.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGerador_Permutacao"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="145"/>
+        <CursorPos X="13" Y="151"/>
+        <UsageCount Value="206"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="upermutador_thread.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPermutador_Thread"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="125"/>
+        <CursorPos X="39" Y="389"/>
+        <UsageCount Value="216"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="uintralot_extrator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmIntralot_Extrator"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="465"/>
+        <CursorPos X="5" Y="501"/>
+        <UsageCount Value="208"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uintralot_extrator_de_resultados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uIntralot_extrator_de_resultados"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="392"/>
+        <CursorPos X="46" Y="392"/>
+        <UsageCount Value="203"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="gerador_de_arranjo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGeradorArranjo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="305"/>
+        <CursorPos X="63" Y="352"/>
+        <UsageCount Value="204"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ulotofacilgerador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLotofacilGerador"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="92"/>
+        <CursorPos X="29" Y="95"/>
+        <UsageCount Value="284"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="160"/>
+        <CursorPos X="10" Y="109"/>
+        <UsageCount Value="2"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/Protocols/IdHTTP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="983"/>
+        <CursorPos X="18" Y="1028"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="496"/>
+        <CursorPos X="3" Y="511"/>
+        <UsageCount Value="7"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/arescp.dpk"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/BGImPanel.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="4" Y="19"/>
+        <UsageCount Value="7"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtHint.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="7"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtVerNfo.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="7" Y="221"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTopicPnl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="203"/>
+        <CursorPos X="68" Y="232"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTrees.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17858"/>
+        <CursorPos X="12" Y="17887"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTreesReg.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="235"/>
+        <CursorPos X="5" Y="264"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/FolderBrowse.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="430"/>
+        <CursorPos X="64" Y="459"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/uTrayIcon.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1027"/>
+        <CursorPos X="5" Y="1056"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/VCHeaderPopup.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/WinSplit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="420"/>
+        <CursorPos X="7" Y="449"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/XPMan.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="22" Y="15"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/mPlayerPanel.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1158"/>
+        <CursorPos X="54" Y="1186"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/cometPageView.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1212"/>
+        <CursorPos Y="1240"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/cometbtnedit.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="584"/>
+        <CursorPos X="8" Y="613"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/sysutils/syspchh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="10" Y="29"/>
+        <UsageCount Value="29"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="/usr/lib64/lazarus/ide/lazarus.pp"/>
+        <UnitName Value="Lazarus"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="28"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdAboutVCL.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="28"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/System/IdStream.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="29"/>
+        <UsageCount Value="28"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/indylaz.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="12"/>
+        <UsageCount Value="28"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/System/IdGlobal.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1095"/>
+        <CursorPos X="33" Y="1113"/>
+        <UsageCount Value="27"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="ugerador_combinatorio.pas"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="157"/>
+        <CursorPos Y="204"/>
+        <UsageCount Value="14"/>
+        <Loaded Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="/usr/lib64/lazarus/debugger/debugger.pp"/>
+        <UnitName Value="Debugger"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1110"/>
+        <CursorPos X="69" Y="1133"/>
+        <UsageCount Value="10"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdDsnCoreResourceStrings.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="65" Y="103"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit42>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="ugerador_combinatorio.pas"/>
+        <Caret Line="891" TopLine="877"/>
+      </Position1>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="14">
+      <Item1>
+        <Kind Value="bpkData"/>
+        <WatchData Value="strJogo_Com"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkReadWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkData"/>
+        <WatchData Value="iJogo_Bolas"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkData"/>
+        <WatchData Value="strHtml_Conteudo"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uconversor_minas5.pas"/>
+        <Line Value="2"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uintralot.pas"/>
+        <Line Value="1276"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ugerador_permutacao.pas"/>
+        <Line Value="362"/>
+      </Item6>
+      <Item7>
+        <Kind Value="bpkData"/>
+        <WatchData Value="quantidade_de_bolas_a_jogar"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+      </Item7>
+      <Item8>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="upermutador_thread.pas"/>
+        <Line Value="567"/>
+      </Item8>
+      <Item9>
+        <Kind Value="bpkData"/>
+        <WatchData Value="strTexto_Resultado"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <InitialEnabled Value="False"/>
+        <Actions Stop="False"/>
+      </Item9>
+      <Item10>
+        <Kind Value="bpkData"/>
+        <WatchData Value="contador_de_paginas"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Expression Value="=9"/>
+        <InitialEnabled Value="False"/>
+      </Item10>
+      <Item11>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ugerador_permutacao.pas"/>
+        <Line Value="201"/>
+      </Item11>
+      <Item12>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ugerador_permutacao.pas"/>
+        <Line Value="195"/>
+      </Item12>
+      <Item13>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uintralot_extrator.pas"/>
+        <Line Value="1051"/>
+      </Item13>
+      <Item14>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uhtml_analisador.pas"/>
+        <Line Value="636"/>
+      </Item14>
+    </BreakPoints>
+    <Watches Count="5">
+      <Item1>
+        <Expression Value="CONTADOR_DE_PAGINAS"/>
+      </Item1>
+      <Item2>
+        <Expression Value="lista_de_urls"/>
+      </Item2>
+      <Item3 ClassAutoCast="True">
+        <Expression Value="bolaJaSorteada"/>
+        <DisplayStyle Value="wdfPointer"/>
+      </Item3>
+      <Item4>
+        <Expression Value="iJogo_Grade"/>
+      </Item4>
+      <Item5>
+        <Expression Value="listaNumeroPar"/>
+      </Item5>
+    </Watches>
+  </Debugging>
+</CONFIG>

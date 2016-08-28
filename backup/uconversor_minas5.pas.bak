@@ -1,0 +1,682 @@
+unit uConversor_Minas5;
+
+{**
+   Autor: Fábio Moura de Oliveira
+   Data:  26/10/2015, 23:04
+
+   Esta unidade analisa o conteúdo html gerado pelo site www.intralot.com.br
+   e recupera as informações dos concursos já realizados para os jogos, 'Minas5'
+   e 'LOTOMANIA'.
+
+   O site funciona assim, quando você entra na home page principal de um jogo
+   específico, é exibido o resultado do concurso mais recente para aquele jogo.
+   Até aí tudo bem, entretanto, se quiser recuperar outros concursos anteriores,
+   o usuário deve selecionar o número do concurso ou a data e apertar o botão
+   'buscar'. O processo para 1 ou alguns jogos é simples, entretanto, se desejarmos,
+   por exemplo, recuperar 50, 100 ou mais concursos, este processo de selecionar
+   concurso ou data e apertar o botão 'BUSCAR' torna-se inconveniente e suscetível
+   a erro.
+
+   Aí vem a pergunta, pra que recuperar 50 ou mais números, simples, talvez desejamos
+   importar tal informação em um banco de dados, para realizar algumas
+   análises em tais números, por exemplo, qual o número que mais sai.
+   Há duas formas de importarmos tal informação para um banco de dados, manualmente,
+   ou, automaticamente, preciso a segunda forma, este será o objetivo ao utilizar
+   esta classe.
+
+   Mais para isso, eu devo analisar o arquivo html e detectar onde tal informação
+   está.
+   Mas como fazer para recuperar a informação para um jogo específico, o resultado
+   dos jogos por exemplo: minas5, fica em:
+
+   http://www.intralot.com.br/newsite/minas5/resultado/
+
+   entretanto, quando você acessar tal link, você verá o concurso mais recente
+   para este jogo.
+   Para acessar outros jogos, você deve inserir no final da url acima,
+   parâmetros de consultas, por exemplo, na forma:
+
+          ?sorteio=716&data=Data+do+sorteio
+
+   No site, podemos escolher duas formas, pelo número do sorteio ou pela data.
+   Quando preenchermos o campo sorteio, por exemplo, com o número 716, a forma
+   do parâmetro da consulta enviado quando clicarmos no botão 'buscar' é:
+
+          ?sorteio=716&data=Data+do+sorteio
+
+   Entretanto, se escolher, a data, por exemplo, 23/10/2015, o parâmetro enviado
+   quando clicamos no botão 'buscar' é:
+
+   sorteio=Digite+o+número+do+sorteio+e+confira+seu+resultado&data=23%2F10%2F2015
+
+   Observe como foi formatada a data, no lugar do '/', foi inserido o '%2F', pois
+   a barra não é permitida na url quando a mesma está como parâmetro de consulta.
+
+   E se escolhermos, o sorteio e a data e clicarmos no botão 'buscar' a página
+   enviada será:
+
+   ?sorteio=716&data=23%2F10%2F2015
+
+   Depois que o servidor retorna com a resposta, o conteúdo html é retornado.
+   Então, o objetivo desta unidade, é utilizar as classes abaixo para analisar
+   o html e retornar as informações para um sorteio específico.
+
+
+   De acordo com minha análise, a informação fica disponível, quando no html
+   for encontrado a seguintes caracteres:
+       <div id="sorteio" class="sorteio">
+
+   Em seguida, é informado a data e hora e o número do jogo, no nosso exemplo,
+   estaremos utilizando o jogo 716:
+
+       <div hora="23/10/2015, às 20:00" jogo="716">
+
+   Em seguida, vem a informação das bolas, que começa com as palavras abaixo:
+
+       <div class="bolas">
+
+   Depois, destas palavras, vem todas as bolas do jogo, como estamos utilizando
+   html, toda a informação está entre tags html, neste formato:
+
+         <span class="bolao">
+               <p> 11 </p>
+         </span>
+
+         <span class="bolao">
+               <p> 15 </p>
+         </span>
+
+         <span class="bolao">
+               <p> 16 </p>
+         </span>
+
+         <span class="bolao">
+               <p> 24 </p>
+         </span>
+
+         <span class="bolao">
+               <p> 25 </p>
+         </span>
+      </div>
+
+      Observa, que as bolas deste jogo, está entre os tags <p> </p>.
+      No final, há o tag </div>, este tag, fecha o tag <div class="bolao">.
+
+      Em seguida, vem a informação dos ganhadores, número de acertos e valor
+      ganho. Na página html onde fica esta informação, há uma linha separação
+      as bolas das informações de ganhadores. Tal informação é descrita pelo
+      nomenclatura abaixo:
+
+      <span class="line"></span>
+      <p class="confira">Confira o número de ganhadores desse sorteio.</p>
+
+      <div class="ganhadores">
+
+           <div class="ganhador">
+
+              <p class="numeros">5</p>
+              <p class="acertos">Acertos</p>
+              <p class="pessoas">0 ganhador</p>
+              <p class="valor">R$ 0,00</p>
+
+          </div>
+
+          <span class="separador"></span>
+
+          <div class="ganhador">
+
+              <p class="numeros">4</p>
+              <p class="acertos">Acertos</p>
+              <p class="pessoas">5 ganhadores</p>
+              <p class="valor">R$ 457,07</p>
+
+          </div>
+
+          <span class="separador"></span>
+
+          <div class="ganhador">
+
+              <p class="numeros">3</p>
+              <p class="acertos">Acertos</p>
+              <p class="pessoas">104 ganhadores</p>
+              <p class="valor">R$ 25,00</p>
+
+          </div>
+
+          <span class="separador"></span>
+
+          <div class="ganhador">
+
+              <p class="numeros">2</p>
+              <p class="acertos">Acertos</p>
+              <p class="pessoas">1.046 ganhadores</p>
+              <p class="valor">R$ 2,00</p>
+
+          </div>
+
+          <span class="separador"></span>
+
+      </div>
+   </div>
+ </div>
+
+       Dos últimos 3 tags '</div>' cada um fecha um tag '<div' especifíco.
+
+       O primeiro fecha o tag: '<div class="ganhadores">'
+       O segundao fecha o tag: '<div hora="23/10/2015, às 20:00" jogo="716">'
+       O terceiro fecha o tag: '<div id="sorteio" class="sorteio">'
+
+ Ou seja, o último tag, encerra os dados que são necessários para podermos
+ recuperar as informações que precisamos.
+
+ E se o usuário digitar um jogo que não existe ou uma data em que não ocorreu jogo.
+ Neste caso, podermos considerar jogo inexistente,
+ se não achamos a sentença: '<div id="sorteio" class="sorteio">', ou podermos
+ tentar localizar a sentença:
+
+        <p class="resultado">Nenhum resultado encontrado para exibição.</p>
+
+ pois fiz vários testes, pesquisando jogos inexistentes e sempre retornava
+ a sentença acima.
+
+ No nosso caso, nossa classe pegar um string contendo o conteúdo do arquivo html
+ e separa em tokens, para depois podermos recuperar a informação do jogo.
+
+ Ou seja, nossa classe não manipula a parte da url do jogo, isto é deixado pra
+ quem for utilizar a classe no programa, nosso programa está preocupado somente
+ com o conteúdo do html e como analisá-lo.
+
+ A classe TIntralot_Html fará:
+
+ 1 -> A análise do html gerado e a transformação do html em tokens html.
+        Obs.: Token html em nossa classe é um string que pode representar tags html,
+        não-tags html e propriedade no formato: propriedade="valor".
+        Um html é composto de tags html, tais tags podem ter atributos que alteram
+        o tag, por exemplo, font="courier".
+        Tags html começa com '<' seguido de um identificador, opcionalmente, de atributos
+        na forma 'propriedade=valor' e do caractere '>'. Entre '<' e identificador
+        não pode haver espaço.
+
+ 2 -> A extração das bolas sorteadas do jogo.
+
+ 3 -> A extração da informação de números de ganhadores, número de acertos e
+      valor ganho.
+
+ A classe TIntralo_Html manipulará:
+
+ 1 -> Todas as situaçõe possíveis para o caractere: '<'.
+
+ 2 -> Todas as situaçõe possíveis para o caractere: '>'.
+
+ 3 -> Todas as situaçõe possíveis para o caractere: '='.
+
+ 4 -> Todas as situaçõe possíveis para o caractere de apostrofo simples e duplo.
+
+ 5 -> A situação quando há entre os tags de abertura e fechamento, várias palavras
+      separadas por espaço, situação muito comum, por exemplo:
+      <h1><p>Um Dois Três</p></h1>.
+      Entre estes tags não pode haver outros tags, ou seja, será o tag mais interno.
+      Neste caso, todas as palavras farão parte de um único token.
+
+ 6 -> Balanceamento de tags, por exemplo, se há um tag de abertura deve haver
+      um tag respectivo de fechamento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**}
+
+
+{$mode objfpc}{$H+}
+
+interface
+uses
+  Classes, SysUtils, strUtils;
+
+type
+
+    { TIntralot_Html }
+
+    TIntralot_Html = class
+      private
+        strToken: TStrings;
+        strHtml_Conteudo: AnsiString;
+
+      private
+        function getHtml_Conteudo: string;
+        function getHtml_Tokens: Tstrings;
+        procedure setHtml_Conteudo(AValue: string);
+
+      public
+        property html_Conteudo:string read getHtml_Conteudo write setHtml_Conteudo;
+        property html_Tokens: TStrings read getHtml_Tokens;
+        function Analisar_Html: boolean;
+
+        Destructor Destroy;
+
+
+    end;
+
+
+    Token_Tipo = record
+      strToken: ansistring;
+
+    end;
+
+
+
+
+implementation
+
+{ TIntralot_Html }
+
+function TIntralot_Html.Analisar_Html:boolean;
+var
+  pHtml, pTemp, pFechar_Tag: PAnsiChar;
+  posIndice : Integer;
+  strToken_Temp: AnsiString;
+begin
+  if Assigned(strToken) = false then begin
+    strToken := TStringList.Create;
+  end;
+
+  if self.strHtml_Conteudo = '' then begin
+    Exit(false);
+  end;
+
+  // Vamos colocar um #0 no final para indicar terminado nulo.
+  strHtml_Conteudo := strHtml_conteudo + #0;
+  pHtml := PAnsiChar(strHtml_Conteudo);
+  strToken_Temp := '';
+
+  // O algoritmo abaixo separa os tag, de todos os outros tipos de tag e propriedades.
+
+   while pHtml^ <> #0 do begin
+    case pHtml^ of
+         '<':
+           begin
+                // Toda vez que encontramos o '<', quer dizer que iremos iniciar
+                // um novo token, então devemos verificar se já há caracteres em
+                // strToken_Temp
+
+                if strToken_Temp <> '' then begin
+                  strToken.Add(strToken_Temp);
+                  strToken_Temp := '';
+                end;
+
+                strToken_Temp := '<';
+                Inc(pHtml);
+                continue;
+           end;
+
+         '>':
+           begin
+                // Se encontrarmos o '>', quer dizer que fecharemos um tag
+                // Vamos verificar se há caracteres pendentes em 'strToken_Temp'
+                // Se sim, verificaremos se começa com '<'
+                if strToken_Temp <> '' then begin
+
+                  // Se o primeiro caractere começa com '<', quer dizer que há um
+                  // tag html formado.
+
+                  if strToken_Temp[1] = '<' then begin
+                    strToken_Temp := strToken_Temp + '>';
+                    strToken.Add(strToken_Temp);
+                    strToken_Temp := '';
+                  end else begin
+                      strToken.Add(strToken_Temp);
+                      strToken_Temp:= '';
+                      strToken.Add('>');
+                  end;
+                end else begin
+                     strToken.Add('>');
+                end;
+                Inc(pHtml);
+           end;
+
+         '''', '"':
+           // Se encontrarmos o apostrófo simples ou duplo, devemos verificar se encontraremos
+           // o outro apostrofo simples ou duplo.
+           begin
+                // 'pTemp' irá apontar para o próximo caractere, pois nós iremos
+                // tentar localizar um segundo caractere igual a 'pHtml^':
+                pTemp := pHtml + 1;
+                pTemp := strScan(pTemp, pHtml^);
+
+                // Se não encontrarmos um outro caractere, não indicaremos erro,
+                // Simplesmente, iremos adicionar a 'strToken_Temp'
+                if pTemp = nil then begin
+
+                  strToken_Temp := strToken_Temp + pHtml^;
+
+                end else begin
+                    // Se strToken_Temp não está vazio, então iremos adicionar
+                    // a strToken.
+                    if strToken_Temp <> '' then begin
+                      strToken.Add(strToken_Temp);
+                      strToken_Temp := '';
+                    end;
+
+                  // Iremos percorrer utilizando pHtml, até encontrarmos pTemp;
+                  while pHtml <= pTemp do begin
+
+                   strToken_Temp := strToken_Temp + pHtml^;
+                   Inc(pHtml);
+
+                  end;
+
+                  strToken.Add(strToken_Temp);
+                  strToken_Temp := '';
+
+                  // Quando acabar o loop 'pHtml' apontará um caractere depois
+                  // do apóstrofo simples ou duplo.
+                  Continue;
+                end;
+           end;
+
+         // Se for um dos caracteres não imprimíveis, simplesmente, não iremos
+         // gravar em 'strToken', se houver caracteres remanescentes em 'strToken_Temp'
+         // iremos adicionar em strToken.
+         #0..#32:
+           begin
+                if strToken_Temp = '' then begin
+                  // Vamos percorrer 'pHtml' até achar um caractere que não esteja
+                  // no intervalo #0..#32
+                  while pHtml^ in [#0..#32] do begin
+                        Inc(pHtml);
+                  end;
+
+                  // Continua a interação do loop.
+                  Continue;
+                end;
+
+                // Se chegarmos aqui quer dizer que strToken_Temp é diferente
+                // de vazio.
+
+                // Se há caracteres em 'strToken_Temp' e começa com '<', quer dizer
+                // que forma um token, devemos adicionar a 'strToken'
+                if (strToken_Temp <> '') and (strToken_Temp[1] = '<') then begin
+                   strToken.Add(strToken_Temp);
+                   strToken_Temp := '';
+
+                   // Vamos percorrer 'pHtml' até achar um caractere que não esteja
+                   // no intervalo #0..#32.
+
+                   while pHtml^ in [#0..#32] do begin
+                         Inc(pHtml);
+                   end;
+
+                   Continue;
+                end;
+
+                // Vamos verificar se a próxima palavra começa uma propriedade
+                // propriedade são formatada neste formato: propriedade=valor
+                pFechar_Tag := StrScan(pHtml, '=');
+
+                if pFechar_Tag <> nil then begin
+                   // Não pode haver os caracteres '<', nem '>', nem no intervalo #0..#32
+                   pTemp := pHtml;
+
+                   // Vamos apontar para a próxima palavra, uma palavra é diferente
+                   // do caractere de espaço em branco.
+                   while pTemp^ in [#0..#32] do begin
+                         Inc(pTemp);
+                   end;
+
+                   // Aqui pTemp está começando na primeira palavra.
+                   while pTemp < pFechar_Tag do begin
+                         if pTemp^ in ['<', '>', #0..#32] then begin
+                            break;
+                         end;
+                         Inc(pTemp);
+                   end;
+
+                   // Se pTemp for igual a pFechar_Tag, quer dizer, que o loop
+                   // não foi interrompido em nenhum momento.
+                   // Isto quer dizer que, a próxima palavra indica um token
+                   // que indica um atributo do tag, no formato:
+                   // propriedade=valor
+                   // Então devemos adicionar a palavra já em 'strToken_Temp'
+                   // a 'strToken' e a próxima palavra começa um propriedade.
+                   if pTemp = pFechar_Tag then begin
+                      strToken.Add(strToken_Temp);
+                      strToken_Temp := '';
+
+                      // Vamos fazer pHtml apontar para a próxima palavra.
+                      while pHtml^ in [#0..#32] do begin
+                            Inc(pHtml);
+                      end;
+
+                      Continue;
+                   end;
+                end;
+
+
+
+                // Há uma situação em html, que indica o namespace, geralmente há
+                // espaço, onde o tag que fecha.
+                pFechar_Tag := StrScan(pHtml, '>');
+
+                if pFechar_Tag <> nil then begin
+                   // Pelo que verifiquei não pode haver o caractere '=' nem '<'
+                   pTemp := pHtml;
+
+                   while pTemp < pFechar_Tag do begin
+                         if pTemp^ in ['=', '<'] then begin
+                            break;
+                         end;
+                         Inc(pTemp);
+                   end;
+
+                   // Se pTemp = pFechar_Tag, quer dizer que não há os caracteres '=' e '<'
+                   // Podemos adicionar todas as palavras.
+                   if pTemp = pFechar_Tag then begin
+                      while pHtml < pFechar_Tag do begin
+                            strToken_Temp := strToken_Temp + pHtml^;
+                            Inc(pHtml);
+                      end;
+                      strToken.Add(strToken_Temp);
+                      strToken_Temp := '';
+
+                      Continue;
+                   end;
+                end;
+
+                // Há um situação em que o tag mais interno é composto por um conjunto
+                // de palavras, separados por espaço, devemos considerar tais palavras
+                // como um único token.
+                // Mas para detectarmos isto devemos, verificar todos os caracteres
+                // após o espaço até chegar no caractere '<', entre todos os caracteres
+                // e o caractere '<' não deve existir os caracteres '>' e '='
+
+                if strToken_Temp <> '' then begin
+
+
+
+
+                  // Quer dizer que há caracteres remanescente, devemos verificar
+                  // se tais caracteres farão parte do espaço em único token.
+
+                  // Vamos procurar o caractere '<' que começa o fechar tag: '</'
+                  pFechar_Tag := StrScan(pHtml, '<');
+
+                  // Se não há o caractere, então devemos percorrer pHtml
+                  // até encontrar um caractere que não esteja no intervalo
+                  // #0..#32
+                  if pFechar_Tag = nil then begin
+
+                    while pHtml^ in [#0..#32] do begin
+                          Inc(pHtml);
+                    end;
+
+                    // Continuar no loop.
+                    Continue;
+
+                  end;
+
+                  // Se chegarmos aqui, quer dizer que há o caractere '>'
+
+                  // Agora, devemos verificar se há os caracteres '>' e '='
+                  // existem entre 'pHtml' e 'pFecha_Tag'
+                  // Iremos, fazer pTemp apontar para o início de pHtml e percorrer
+                  // até chegar em pFecha_Tag.
+                  pTemp := pHtml;
+
+                  while pTemp < pFechar_Tag do
+                  begin
+
+                   if pTemp^ in ['>', '='] then begin
+                      // Se encontramos um deste caracteres quer dizer, que não
+                      // podermos juntar as palavras em um único token.
+                      // Estamos devemos considerar os caracteres em 'strToken_Temp'
+                      // como um único token.
+
+
+
+
+
+                      strToken.Add(strToken_Temp);
+                      strToken_Temp := '';
+
+                      // Iremos apontar 'pTemp' para 'pFechar_Tag + 1',
+                      // Pois, se não houver nenhum destes caracteres '>' ou '='
+                      // ao sairmos do loop 'pTemp' será igual a 'pFechar_Tag'
+                      pTemp := pFechar_Tag + 1;
+
+                      Break;
+                   end;
+
+                   // Ir para o próximo caractere.
+                   Inc(pTemp);
+
+                  end;
+
+                  // Ao sairmos do loop, se não foi encontrados os caracteres
+                  // '>' ou '=', pTemp apontará para pFechar_Tag, entretanto,
+                  // se tais caracteres forem encontrados, iremos para a próxima
+                  // iteração do loop.
+
+                  if pTemp > pFechar_Tag then begin
+                     // Vamos fazer pHtml apontar para um caractere que não
+                     // esteja no intervalo #0..#32.
+                     while pHtml^ in [#0..#32] do begin
+                           Inc(pHtml);
+                     end;
+
+                     // Continuar na próxima iteração do loop.
+                     Continue;
+                  end;
+
+
+                  // Se chegarmos aqui, quer dizer que não há o caractere '>' e '='
+                  // entre 'pHtml' e 'pFecha_Tag'.
+
+
+                  // Se o caractere seguinte não for '/', devemos
+                  // adicionar os caracteres que já estão em strToken_Temp
+                  // como um novo Token.
+                  if (pFechar_Tag + 1)^ <> '/' then begin
+                    strToken.Add(strToken_Temp);
+                    strToken_Temp := '';
+
+                    // Devemos agora, percorrer todos os caracteres em 'pHtml'
+                    // até chegar em um caractere diferente de espaço e então
+                    // continue em um novo loop
+
+                    while pHtml^ in [#0..#32] do begin
+                          inc(pHtml);
+                    end;
+
+                    // Continuar a interação do loop
+                    Continue;
+                  end;
+
+                  // Se chegarmos aqui quer dizer que o caractere depois de pFechar_Tag
+                  // é o caractere '/'
+                  // Se chegarmos aqui, quer dizer
+
+                  // Agora, devemos adicionar todos os caracteres que estão
+                  // a partir de 'pHtml' até um caractere antes de pFecha_Tag.
+
+                  while pHtml < pFechar_Tag do begin
+                        strToken_Temp := strToken_Temp + pHtml^;
+                        Inc(pHtml);
+                  end;
+
+                  // Adiciona os caracteres em 'strToken_Temp' em 'strToken'
+                  strToken.Add(strToken_Temp);
+                  strToken_Temp := '';
+
+                end else begin
+                    // Se não há nada em strToken_Temp, então iremos
+                    // percorrer pHtml até encontrar um caractere que não esteja
+                    // no intervalo #0..#32.
+                    while pHtml^ in [#0..#32] do begin
+                          Inc(pHtml);
+                    end;
+                end
+
+
+
+                  end;
+
+         // Geralmente, o caractere '=', separa propriedade do seu valor, geralmente
+         // na forma: propriedade=valor
+         '=':
+           begin
+                if strToken_Temp <> '' then begin
+                  strToken.Add(strToken_Temp);
+                  strToken_Temp := '';
+                end;
+                strToken.Add('=');
+                Inc(pHtml);
+           end;
+
+         else
+              begin
+               strToken_Temp := strToken_Temp + pHtml^;
+               Inc(pHtml);
+              end;
+
+    end;
+  end;
+
+
+end;
+
+destructor TIntralot_Html.Destroy;
+begin
+  strToken.Clear;
+  INHERITED Destroy;
+end;
+
+function TIntralot_Html.getHtml_Conteudo: string;
+begin
+  Result:= self.strHtml_Conteudo;
+end;
+
+function TIntralot_Html.getHtml_Tokens: Tstrings;
+begin
+  Result := self.strToken;
+end;
+
+procedure TIntralot_Html.setHtml_Conteudo(AValue: string);
+begin
+  self.strHtml_Conteudo:=AValue;
+end;
+
+end.
+

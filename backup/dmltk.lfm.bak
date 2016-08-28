@@ -1,0 +1,52 @@
+object dmModulo: TdmModulo
+  OldCreateOrder = False
+  Height = 383
+  HorizontalOffset = 686
+  VerticalOffset = 402
+  Width = 482
+  object menu_ltk_principal: TMainMenu
+    left = 79
+    top = 48
+    object MenuItem1: TMenuItem
+      Caption = 'A&rquivo'
+      object menu_Arquivo_Sair: TMenuItem
+        Caption = 'Sai&r'
+        OnClick = menu_Arquivo_SairClick
+      end
+    end
+    object menu_Ferramentas: TMenuItem
+      Caption = '&Ferramentas'
+      object menu_Ferramentas_Gerador_Aleatorio: TMenuItem
+        Caption = 'Gerador aleatório'
+        OnClick = menu_Ferramentas_Gerador_AleatorioClick
+      end
+      object mnGerador_Permutacao: TMenuItem
+        Caption = 'Gerador de permutações'
+      end
+    end
+    object mnResultados: TMenuItem
+      Caption = '&Resultados'
+      object mnIntralot_Resultado: TMenuItem
+        Caption = 'Atualizar &Intralot...'
+      end
+    end
+    object mnOpcoes: TMenuItem
+      Caption = '&Opções'
+      object mnBanco_de_Dados: TMenuItem
+        Caption = '&Banco de dados...'
+        OnClick = mnBanco_de_DadosClick
+      end
+    end
+    object menu_Ajuda: TMenuItem
+      Caption = 'A&juda'
+      object menu_Ajuda_Sobre: TMenuItem
+        Caption = '&Sobre...'
+        OnClick = menu_Ajuda_SobreClick
+      end
+    end
+  end
+  object dlgExportar_CSV: TSaveDialog
+    left = 72
+    top = 120
+  end
+end

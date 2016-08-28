@@ -1,0 +1,14 @@
+###################### LTK ###############################
+Autor: Fábio Moura de Oliveira
+Data: 17/10/2015
+Postado no github: 26/8/2016 
+
+LTK - Analisador e gerador de jogos lotéricos.
+Este programa analisa jogos lotéricos da caixa e da intralot.
+
+Atualmente, está implementado:
+Um gerador aleatório de jogos lotéricos da caixa e da intralot;
+Um extrator de resultados da intralot.
+
+Obs.:
+O extrator de resultados intralot é completamente funcional, entretanto, preciso realizar algumas validações na interface, para aceitar somente números.

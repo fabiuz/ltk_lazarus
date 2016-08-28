@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 143
+  Height = 233
+  Top = 148
+  Width = 592
+  Caption = 'Form1'
+  ClientHeight = 208
+  ClientWidth = 592
+  Menu = dmModulo.menu_ltk_principal
+  OnClose = FormClose
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 24
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object btnGerador_Permutacao: TButton
+    Left = 16
+    Height = 25
+    Top = 136
+    Width = 203
+    Caption = '&Gerador de Permutações'
+    OnClick = btnGerador_PermutacaoClick
+    TabOrder = 2
+  end
+  object btnAtualizar_Intralot: TButton
+    Left = 16
+    Height = 25
+    Top = 96
+    Width = 203
+    Caption = 'Atualizador &Intralot'
+    OnClick = btnAtualizar_IntralotClick
+    TabOrder = 3
+  end
+  object btnGerador_combinatorio: TButton
+    Left = 376
+    Height = 25
+    Top = 72
+    Width = 203
+    Caption = 'Gerador de &combinações'
+    OnClick = btnGerador_combinatorioClick
+    TabOrder = 4
+  end
+  object IdFTP1: TIdFTP
+    IPVersion = Id_IPv4
+    ConnectTimeout = 0
+    NATKeepAlive.UseKeepAlive = False
+    NATKeepAlive.IdleTimeMS = 0
+    NATKeepAlive.IntervalMS = 0
+    ProxySettings.ProxyType = fpcmNone
+    ProxySettings.Port = 0
+    left = 327
+    top = 98
+  end
+end
