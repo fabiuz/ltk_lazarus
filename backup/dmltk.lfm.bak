@@ -1,8 +1,8 @@
 object dmModulo: TdmModulo
   OldCreateOrder = False
   Height = 383
-  HorizontalOffset = 686
-  VerticalOffset = 402
+  HorizontalOffset = 737
+  VerticalOffset = 361
   Width = 482
   object menu_ltk_principal: TMainMenu
     left = 79

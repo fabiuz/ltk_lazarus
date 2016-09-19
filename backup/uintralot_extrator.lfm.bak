@@ -1,7 +1,7 @@
 object frmIntralot_Extrator: TfrmIntralot_Extrator
-  Left = 345
+  Left = 692
   Height = 746
-  Top = 117
+  Top = 198
   Width = 767
   Caption = 'Extrator de jogos intralot'
   ClientHeight = 746
