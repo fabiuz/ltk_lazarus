@@ -7,8 +7,12 @@ LTK - Analisador e gerador de jogos lotéricos.
 Este programa analisa jogos lotéricos da caixa e da intralot.
 
 Atualmente, está implementado:
-Um gerador aleatório de jogos lotéricos da caixa e da intralot;
-Um extrator de resultados da intralot.
+Um gerador aleatório de apostas para os jogos da caixa e para os jogos 'KENO', 'MINAS5' e 'LOTOMINAS' da intralot.
+Um extrator de resultados de jogos 'KENO', 'MINAS5' E 'LOTOMINAS' da intralot.
 
-Obs.:
-O extrator de resultados intralot é completamente funcional, entretanto, preciso realizar algumas validações na interface, para aceitar somente números.
+Implementações futuras:
+Extrator de jogos da loteria da caixa.
+Inserção automática de dados diretamente no banco de dados dos resultados obtidos pelo extrator de resultados.
+Utilização de thread em rotinas que consome muito tempo para executar.
+Análise estatística dos resultados dos jogos.
+
