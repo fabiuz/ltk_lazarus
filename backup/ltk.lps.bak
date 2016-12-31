@@ -75,7 +75,7 @@
         </CompilerOptions>
       </Item2>
     </BuildModes>
-    <Units Count="44">
+    <Units Count="43">
       <Unit0>
         <Filename Value="ltk.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -90,13 +90,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uLtk"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="38"/>
         <CursorPos X="19" Y="62"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="dmltk.pas"/>
@@ -105,12 +102,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmLtk"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="49"/>
         <CursorPos Y="55"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="ugerador_aleatorio.pas"/>
@@ -118,12 +113,10 @@
         <ComponentName Value="frmGerador_Aleatorio"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="803"/>
         <CursorPos X="38" Y="808"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="ubanco_de_dados.pas"/>
@@ -210,9 +203,10 @@
         <ComponentName Value="frmIntralot_Extrator"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="465"/>
-        <CursorPos X="5" Y="501"/>
+        <CursorPos X="40" Y="475"/>
         <UsageCount Value="208"/>
       </Unit12>
       <Unit13>
@@ -239,342 +233,216 @@
         <Filename Value="ulotofacilgerador.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uLotofacilGerador"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
         <CursorPos X="54" Y="73"/>
         <UsageCount Value="284"/>
-        <Loaded Value="True"/>
       </Unit15>
       <Unit16>
-        <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/sysutils/sysstrh.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="160"/>
-        <CursorPos X="10" Y="109"/>
-        <UsageCount Value="0"/>
-      </Unit16>
-      <Unit17>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/Protocols/IdHTTP.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="983"/>
         <CursorPos X="18" Y="1028"/>
         <UsageCount Value="25"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit17>
-      <Unit18>
+      </Unit16>
+      <Unit17>
         <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/inc/systemh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1121"/>
         <CursorPos X="10" Y="1119"/>
-        <UsageCount Value="13"/>
-      </Unit18>
-      <Unit19>
+        <UsageCount Value="12"/>
+      </Unit17>
+      <Unit18>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/arescp.dpk"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit19>
-      <Unit20>
+      </Unit18>
+      <Unit19>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/BGImPanel.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="4" Y="19"/>
         <UsageCount Value="5"/>
-      </Unit20>
-      <Unit21>
+      </Unit19>
+      <Unit20>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtHint.pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="5"/>
-      </Unit21>
-      <Unit22>
+      </Unit20>
+      <Unit21>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtVerNfo.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="193"/>
         <CursorPos X="7" Y="221"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit22>
-      <Unit23>
+      </Unit21>
+      <Unit22>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTopicPnl.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="203"/>
         <CursorPos X="68" Y="232"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit23>
-      <Unit24>
+      </Unit22>
+      <Unit23>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTrees.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="17858"/>
         <CursorPos X="12" Y="17887"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit24>
-      <Unit25>
+      </Unit23>
+      <Unit24>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CometTreesReg.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="235"/>
         <CursorPos X="5" Y="264"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit25>
-      <Unit26>
+      </Unit24>
+      <Unit25>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/FolderBrowse.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="430"/>
         <CursorPos X="64" Y="459"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit26>
-      <Unit27>
+      </Unit25>
+      <Unit26>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/uTrayIcon.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1027"/>
         <CursorPos X="5" Y="1056"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit27>
-      <Unit28>
+      </Unit26>
+      <Unit27>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/VCHeaderPopup.pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit28>
-      <Unit29>
+      </Unit27>
+      <Unit28>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/WinSplit.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="420"/>
         <CursorPos X="7" Y="449"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit29>
-      <Unit30>
+      </Unit28>
+      <Unit29>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/XPMan.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="22" Y="15"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit30>
-      <Unit31>
+      </Unit29>
+      <Unit30>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/mPlayerPanel.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1158"/>
         <CursorPos X="54" Y="1186"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit31>
-      <Unit32>
+      </Unit30>
+      <Unit31>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/cometPageView.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1212"/>
         <CursorPos Y="1240"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit32>
-      <Unit33>
+      </Unit31>
+      <Unit32>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/cometbtnedit.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="584"/>
         <CursorPos X="8" Y="613"/>
         <UsageCount Value="4"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit33>
-      <Unit34>
+      </Unit32>
+      <Unit33>
         <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/sysutils/syspchh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="15"/>
         <CursorPos X="10" Y="29"/>
         <UsageCount Value="27"/>
-      </Unit34>
-      <Unit35>
+      </Unit33>
+      <Unit34>
         <Filename Value="/usr/lib64/lazarus/ide/lazarus.pp"/>
         <UnitName Value="Lazarus"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="26"/>
-      </Unit35>
-      <Unit36>
+      </Unit34>
+      <Unit35>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdAboutVCL.pas"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="26"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit36>
-      <Unit37>
+      </Unit35>
+      <Unit36>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/System/IdStream.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="13"/>
         <CursorPos X="3" Y="29"/>
         <UsageCount Value="26"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit37>
-      <Unit38>
+      </Unit36>
+      <Unit37>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/indylaz.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="11" Y="12"/>
         <UsageCount Value="26"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit38>
-      <Unit39>
+      </Unit37>
+      <Unit38>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/System/IdGlobal.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1095"/>
         <CursorPos X="33" Y="1113"/>
         <UsageCount Value="25"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit39>
-      <Unit40>
+      </Unit38>
+      <Unit39>
         <Filename Value="ugerador_combinatorio.pas"/>
         <ComponentName Value="frmGerador_Combinatorio"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos Y="204"/>
-        <UsageCount Value="23"/>
-        <Loaded Value="True"/>
-      </Unit40>
-      <Unit41>
+        <UsageCount Value="24"/>
+      </Unit39>
+      <Unit40>
         <Filename Value="/usr/lib64/lazarus/debugger/debugger.pp"/>
         <UnitName Value="Debugger"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1110"/>
         <CursorPos X="69" Y="1133"/>
         <UsageCount Value="8"/>
-      </Unit41>
-      <Unit42>
+      </Unit40>
+      <Unit41>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdDsnCoreResourceStrings.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="65" Y="103"/>
         <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit42>
-      <Unit43>
+      </Unit41>
+      <Unit42>
         <Filename Value="/usr/share/fpcsrc/3.0.0/rtl/objpas/classes/classesh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1194"/>
         <CursorPos X="3" Y="109"/>
         <UsageCount Value="10"/>
-      </Unit43>
+      </Unit42>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
-      <Position1>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="982" TopLine="943"/>
-      </Position1>
-      <Position2>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1004" TopLine="994"/>
-      </Position2>
-      <Position3>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1026" TopLine="1016"/>
-      </Position3>
-      <Position4>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1031" TopLine="1016"/>
-      </Position4>
-      <Position5>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1259" TopLine="1249"/>
-      </Position5>
-      <Position6>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="989" Column="16" TopLine="960"/>
-      </Position6>
-      <Position7>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="991" Column="19" TopLine="957"/>
-      </Position7>
-      <Position8>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1208" Column="33" TopLine="1188"/>
-      </Position8>
-      <Position9>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1179" Column="48" TopLine="932"/>
-      </Position9>
-      <Position10>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1033" TopLine="995"/>
-      </Position10>
-      <Position11>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1262" TopLine="1239"/>
-      </Position11>
-      <Position12>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1034" Column="48" TopLine="1029"/>
-      </Position12>
-      <Position13>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1099" TopLine="1065"/>
-      </Position13>
-      <Position14>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1136" TopLine="1113"/>
-      </Position14>
-      <Position15>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1169" Column="24" TopLine="1160"/>
-      </Position15>
-      <Position16>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="186" Column="34" TopLine="164"/>
-      </Position16>
-      <Position17>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="187" Column="14" TopLine="164"/>
-      </Position17>
-      <Position18>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="191" Column="30" TopLine="162"/>
-      </Position18>
-      <Position19>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="184" Column="32" TopLine="162"/>
-      </Position19>
-      <Position20>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="187" TopLine="163"/>
-      </Position20>
-      <Position21>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="194" Column="18" TopLine="175"/>
-      </Position21>
-      <Position22>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="183" TopLine="175"/>
-      </Position22>
-      <Position23>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="187" Column="42" TopLine="168"/>
-      </Position23>
-      <Position24>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="177" Column="66" TopLine="168"/>
-      </Position24>
-      <Position25>
-        <Filename Value="ugerador_aleatorio.pas"/>
-        <Caret Line="1054" TopLine="492"/>
-      </Position25>
-      <Position26>
-        <Filename Value="ultk.pas"/>
-        <Caret Line="85" Column="44" TopLine="63"/>
-      </Position26>
-      <Position27>
-        <Filename Value="dmltk.pas"/>
-        <Caret Line="58" Column="32" TopLine="27"/>
-      </Position27>
-      <Position28>
-        <Filename Value="ultk.pas"/>
-        <Caret Line="97" Column="47" TopLine="64"/>
-      </Position28>
-      <Position29>
-        <Filename Value="ultk.pas"/>
-        <Caret Line="93" Column="38" TopLine="78"/>
-      </Position29>
-      <Position30>
-        <Filename Value="ultk.pas"/>
-        <Caret Line="124" Column="5" TopLine="87"/>
-      </Position30>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
   <Debugging>
     <BreakPoints Count="14">

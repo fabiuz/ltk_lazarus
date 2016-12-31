@@ -41,7 +41,7 @@ object Form1: TForm1
     Height = 25
     Top = 136
     Width = 203
-    Caption = 'Baixador de resultados Intralot'
+    Caption = 'Extrator de resultados Intralot'
     OnClick = btnAtualizar_IntralotClick
     TabOrder = 3
   end

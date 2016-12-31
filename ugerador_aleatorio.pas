@@ -253,7 +253,8 @@ begin
 
   if strJogo = 'QUINA' then
   begin
-    for iA := 5 to 7 do
+    // Quina, agora, vc pode jogar de 5 a 15 números.
+    for iA := 5 to 15 do
     begin
       cmbJogo_com.Items.Add(IntToStr(iA));
     end;
@@ -389,7 +390,7 @@ begin
     Exit(False);
   end;
 
-  if (strJogo = 'QUINA') and not (JogoInfo.bolaAposta in [5..7]) then
+  if (strJogo = 'QUINA') and not (JogoInfo.bolaAposta in [5..15]) then
   begin
     strErro := 'Quantidade de bolas apostadas inválida para o jogo: ' + strJogo;
     Exit(False);
