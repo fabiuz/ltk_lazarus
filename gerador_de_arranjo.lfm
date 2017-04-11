@@ -1,16 +1,16 @@
 object frmGeradorArranjo: TfrmGeradorArranjo
-  Left = 453
+  Left = 552
   Height = 445
-  Top = 270
+  Top = 268
   Width = 665
   Caption = 'Gerador de arranjos numéricos'
   ClientHeight = 445
   ClientWidth = 665
   OnCreate = FormCreate
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.4.0'
   object cmbJogoTipo: TComboBox
     Left = 52
-    Height = 31
+    Height = 32
     Top = 66
     Width = 203
     ItemHeight = 0
@@ -20,23 +20,23 @@ object frmGeradorArranjo: TfrmGeradorArranjo
   end
   object Label1: TLabel
     Left = 10
-    Height = 19
+    Height = 20
     Top = 71
-    Width = 32
+    Width = 34
     Caption = 'Jogo:'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 267
-    Height = 19
+    Height = 20
     Top = 71
-    Width = 29
+    Width = 31
     Caption = 'com:'
     ParentColor = False
   end
   object cmbJogoNumeros: TComboBox
     Left = 303
-    Height = 31
+    Height = 32
     Top = 66
     Width = 99
     ItemHeight = 0
@@ -54,9 +54,9 @@ object frmGeradorArranjo: TfrmGeradorArranjo
   end
   object Label3: TLabel
     Left = 408
-    Height = 19
+    Height = 20
     Top = 71
-    Width = 55
+    Width = 60
     Caption = 'números.'
     ParentColor = False
   end
@@ -81,7 +81,7 @@ object frmGeradorArranjo: TfrmGeradorArranjo
   end
   object DiretorioDestino: TDirectoryEdit
     Left = 10
-    Height = 31
+    Height = 35
     Top = 22
     Width = 646
     Directory = '/mnt/Gerador_de_Palavras'
@@ -96,16 +96,16 @@ object frmGeradorArranjo: TfrmGeradorArranjo
   end
   object Label5: TLabel
     Left = 10
-    Height = 19
+    Height = 20
     Top = 0
-    Width = 122
+    Width = 130
     Caption = 'Diretório de destino:'
     ParentColor = False
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 21
-    Top = 424
+    Height = 24
+    Top = 421
     Width = 665
     Panels = <    
       item

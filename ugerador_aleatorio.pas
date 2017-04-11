@@ -6,7 +6,10 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, ComCtrls, Grids;
+  StdCtrls, ComCtrls, Grids
+
+
+  ;
 
 // Este registro guarda a informação do jogo escolhido, a quantidade de números jogados
 // e a quantidade de volantes jogados.
@@ -56,6 +59,7 @@ type
     jogoGrade: TStringGrid;
     procedure Preencher_Grade;
     procedure Preencher_Grade_Lotofacil;
+    procedure Preencher_Grade_Lotomania;
   end;
 
 type
@@ -1310,6 +1314,11 @@ begin
 
   JogoGrade.AutoSizeColumns;
   FreeAndNil(listaNumero);
+
+end;
+
+procedure TJogoThread.Preencher_Grade_Lotomania;
+begin
 
 end;
 

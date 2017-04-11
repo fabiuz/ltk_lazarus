@@ -9,10 +9,10 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   Constraints.MaxWidth = 520
   OnClose = FormClose
   OnCreate = FormCreate
-  LCLVersion = '1.6.0.2'
+  LCLVersion = '1.6.4.0'
   object cmbJogo_Tipo: TComboBox
     Left = 48
-    Height = 33
+    Height = 32
     Top = 8
     Width = 164
     ItemHeight = 0
@@ -22,7 +22,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object Jogo: TLabel
     Left = 8
-    Height = 21
+    Height = 20
     Top = 16
     Width = 30
     Caption = 'Jogo'
@@ -30,7 +30,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object cmbJogo_Com: TComboBox
     Left = 264
-    Height = 33
+    Height = 32
     Top = 8
     Width = 164
     ItemHeight = 0
@@ -39,7 +39,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object Jogo1: TLabel
     Left = 224
-    Height = 21
+    Height = 20
     Top = 16
     Width = 31
     Caption = 'com:'
@@ -57,7 +57,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object edDiretorio: TLabeledEdit
     Left = 8
-    Height = 33
+    Height = 35
     Top = 64
     Width = 420
     EditLabel.AnchorSideLeft.Control = edDiretorio
@@ -65,8 +65,8 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
     EditLabel.AnchorSideRight.Side = asrBottom
     EditLabel.AnchorSideBottom.Control = edDiretorio
     EditLabel.Left = 8
-    EditLabel.Height = 21
-    EditLabel.Top = 40
+    EditLabel.Height = 20
+    EditLabel.Top = 41
     EditLabel.Width = 420
     EditLabel.Caption = 'Diretório (*.sql)'
     EditLabel.ParentColor = False
@@ -85,7 +85,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object spLinhas_por_Arquivo: TSpinEdit
     Left = 432
-    Height = 33
+    Height = 35
     Top = 104
     Width = 75
     Increment = 1000
@@ -94,9 +94,9 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object Label1: TLabel
     Left = 8
-    Height = 21
+    Height = 20
     Top = 112
-    Width = 413
+    Width = 410
     Caption = 'Linhas por arquivo:(de 0 a 5 milhões)[0 (zero) um único arquivo:]'
     ParentColor = False
   end
@@ -107,13 +107,13 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
     Width = 500
     Caption = 'LOG'
     ClientHeight = 106
-    ClientWidth = 498
+    ClientWidth = 496
     TabOrder = 6
     object mmLog: TMemo
       Left = 0
       Height = 106
       Top = 0
-      Width = 498
+      Width = 496
       Align = alClient
       ScrollBars = ssVertical
       TabOrder = 0
@@ -139,7 +139,7 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object rotulo_status: TLabel
     Left = 16
-    Height = 21
+    Height = 20
     Top = 284
     Width = 4
     Caption = ' '
@@ -147,9 +147,9 @@ object frmGerador_Permutacao: TfrmGerador_Permutacao
   end
   object chkAtivar_Desativar_Log: TCheckBox
     Left = 8
-    Height = 25
+    Height = 23
     Top = 264
-    Width = 91
+    Width = 90
     Caption = '&Ativar log.'
     OnChange = chkAtivar_Desativar_LogChange
     TabOrder = 9

@@ -200,7 +200,7 @@ begin
 
   try
      objPermutador := TPermutador_Thread.Create(true, strPasta, permutacao_info.strJogo_tipo,
-                                                      iBolas_Quantidade, spLinhas_por_Arquivo.Value);
+     iBolas_Quantidade, spLinhas_por_Arquivo.Value);
 	except ON exc:Exception do begin
     MessageDlg('Erro: ' + exc.Message, TMsgDlgType.mtError, [mbOk], 0);
     Exit;
