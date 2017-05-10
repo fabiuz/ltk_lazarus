@@ -119,8 +119,8 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="4"/>
-        <TopLine Value="46"/>
-        <CursorPos X="3" Y="166"/>
+        <TopLine Value="1215"/>
+        <CursorPos X="48" Y="1228"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -251,7 +251,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="983"/>
         <CursorPos X="18" Y="1028"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="23"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit16>
       <Unit17>
@@ -259,12 +259,12 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1121"/>
         <CursorPos X="10" Y="1119"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/arescp.dpk"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit18>
       <Unit19>
@@ -272,19 +272,19 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="4" Y="19"/>
-        <UsageCount Value="4"/>
+        <UsageCount Value="3"/>
       </Unit19>
       <Unit20>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtHint.pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="4"/>
+        <UsageCount Value="3"/>
       </Unit20>
       <Unit21>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/CmtVerNfo.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="193"/>
         <CursorPos X="7" Y="221"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit21>
       <Unit22>
@@ -292,7 +292,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="203"/>
         <CursorPos X="68" Y="232"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit22>
       <Unit23>
@@ -300,7 +300,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="17858"/>
         <CursorPos X="12" Y="17887"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit23>
       <Unit24>
@@ -308,7 +308,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="235"/>
         <CursorPos X="5" Y="264"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit24>
       <Unit25>
@@ -316,7 +316,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="430"/>
         <CursorPos X="64" Y="459"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit25>
       <Unit26>
@@ -324,13 +324,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1027"/>
         <CursorPos X="5" Y="1056"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit26>
       <Unit27>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/VCHeaderPopup.pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit27>
       <Unit28>
@@ -338,14 +338,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="420"/>
         <CursorPos X="7" Y="449"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit28>
       <Unit29>
         <Filename Value="../Ares/Ares_VCLs_011713/Ares VCLs/XPMan.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="22" Y="15"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit29>
       <Unit30>
@@ -353,7 +353,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1158"/>
         <CursorPos X="54" Y="1186"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit30>
       <Unit31>
@@ -361,7 +361,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1212"/>
         <CursorPos Y="1240"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit31>
       <Unit32>
@@ -369,7 +369,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="584"/>
         <CursorPos X="8" Y="613"/>
-        <UsageCount Value="3"/>
+        <UsageCount Value="2"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit32>
       <Unit33>
@@ -377,18 +377,18 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="15"/>
         <CursorPos X="10" Y="29"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="25"/>
       </Unit33>
       <Unit34>
         <Filename Value="/usr/lib64/lazarus/ide/lazarus.pp"/>
         <UnitName Value="Lazarus"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="24"/>
       </Unit34>
       <Unit35>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdAboutVCL.pas"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="24"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit35>
       <Unit36>
@@ -396,13 +396,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="12"/>
         <CursorPos X="3" Y="29"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="24"/>
       </Unit36>
       <Unit37>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/indylaz.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="11" Y="12"/>
-        <UsageCount Value="25"/>
+        <UsageCount Value="24"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit37>
       <Unit38>
@@ -410,7 +410,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1095"/>
         <CursorPos X="33" Y="1113"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="23"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit38>
       <Unit39>
@@ -421,7 +421,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="183"/>
         <CursorPos Y="204"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="22"/>
       </Unit39>
       <Unit40>
         <Filename Value="/usr/lib64/lazarus/debugger/debugger.pp"/>
@@ -429,13 +429,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1110"/>
         <CursorPos X="69" Y="1133"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
       </Unit40>
       <Unit41>
         <Filename Value="/usr/lib64/lazarus/components/indylaz/Core/IdDsnCoreResourceStrings.pas"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="65" Y="103"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="6"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit41>
       <Unit42>
@@ -443,28 +443,28 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="108"/>
         <CursorPos X="3" Y="119"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit42>
       <Unit43>
         <Filename Value="/usr/share/fpcsrc/3.0.0/packages/fcl-image/src/fpcanvas.pp"/>
         <UnitName Value="FPCanvas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="70"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit43>
       <Unit44>
         <Filename Value="../../../Downloads/lazarus/indy_svn/indylaz/System/IdStream.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="12"/>
         <CursorPos X="3" Y="29"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
       </Unit44>
       <Unit45>
         <Filename Value="../../../Downloads/lazarus/indy/indy-10.2.0.3/lazarus/IdAboutVCL.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="61"/>
         <CursorPos X="3" Y="76"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit45>
       <Unit46>
@@ -472,7 +472,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="13"/>
         <CursorPos X="3" Y="29"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit46>
       <Unit47>
@@ -480,15 +480,75 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <CursorPos X="3" Y="29"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit47>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="ultk.pas"/>
         <Caret Line="19" Column="44" TopLine="92"/>
       </Position1>
+      <Position2>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="527" Column="43" TopLine="10"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="62" Column="15" TopLine="46"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ultk.pas"/>
+        <Caret Line="84" Column="3" TopLine="73"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dmltk.pas"/>
+        <Caret Line="55" TopLine="54"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="316" Column="3" TopLine="314"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="211" Column="16" TopLine="200"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="164" Column="29" TopLine="160"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1224" Column="48" TopLine="1211"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1225" Column="48" TopLine="1212"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1226" Column="48" TopLine="1213"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1225" Column="48" TopLine="1212"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1226" Column="48" TopLine="1213"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1227" Column="48" TopLine="1214"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1226" Column="48" TopLine="1213"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ugerador_aleatorio.pas"/>
+        <Caret Line="1227" Column="48" TopLine="1214"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
   <Debugging>

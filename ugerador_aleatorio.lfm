@@ -1,10 +1,11 @@
 object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   Left = 681
-  Height = 376
+  Height = 513
   Top = 151
   Width = 759
+  ActiveControl = cmbJogo_Tipo
   Caption = 'Gerador Aleatório'
-  ClientHeight = 376
+  ClientHeight = 513
   ClientWidth = 759
   Constraints.MinHeight = 300
   Constraints.MinWidth = 750
@@ -113,30 +114,89 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   end
   object Panel2: TPanel
     Left = 0
-    Height = 273
+    Height = 410
     Top = 82
     Width = 665
     Align = alClient
-    ClientHeight = 273
+    ClientHeight = 410
     ClientWidth = 665
     TabOrder = 3
-    object gradeJogos: TStringGrid
+    object PageControl1: TPageControl
       Left = 1
-      Height = 271
+      Height = 408
       Top = 1
       Width = 663
+      ActivePage = TabSheet2
       Align = alClient
-      ColCount = 0
-      FixedCols = 0
-      FixedRows = 0
-      RowCount = 0
+      TabIndex = 1
       TabOrder = 0
+      object TabSheet1: TTabSheet
+        Caption = 'Resultados'
+        ClientHeight = 381
+        ClientWidth = 659
+        object gradeJogos: TStringGrid
+          Left = 0
+          Height = 381
+          Top = 0
+          Width = 659
+          Align = alClient
+          Anchors = [akTop, akLeft, akRight]
+          ColCount = 0
+          FixedCols = 0
+          FixedRows = 0
+          RowCount = 0
+          TabOrder = 0
+        end
+      end
+      object TabSheet2: TTabSheet
+        Caption = 'Filtros p/ Lotofacil'
+        ClientHeight = 381
+        ClientWidth = 659
+        object CheckListBox1: TCheckListBox
+          Left = 6
+          Height = 344
+          Hint = 'Selecione '
+          Top = 32
+          Width = 152
+          Anchors = [akTop, akLeft, akBottom]
+          ItemHeight = 0
+          TabOrder = 0
+          TopIndex = -1
+        end
+        object Label6: TLabel
+          Left = 8
+          Height = 17
+          Top = 8
+          Width = 150
+          Caption = 'Apostas com 15 números'
+          ParentColor = False
+        end
+        object CheckListBox2: TCheckListBox
+          Left = 168
+          Height = 344
+          Hint = 'Selecione '
+          Top = 32
+          Width = 152
+          Anchors = [akTop, akLeft, akBottom]
+          ItemHeight = 0
+          TabOrder = 1
+          TopIndex = -1
+        end
+        object Label7: TLabel
+          Left = 170
+          Height = 17
+          Top = 8
+          Width = 150
+          Caption = 'Apostas com 15 números'
+          ParentColor = False
+        end
+      end
     end
   end
   object StatusBar1: TStatusBar
     Left = 0
     Height = 21
-    Top = 355
+    Top = 492
     Width = 759
     Panels = <    
       item
@@ -146,11 +206,11 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   end
   object panel_Direito: TPanel
     Left = 665
-    Height = 273
+    Height = 410
     Top = 82
     Width = 94
     Align = alRight
-    ClientHeight = 273
+    ClientHeight = 410
     ClientWidth = 94
     TabOrder = 1
     object btnCopiar: TButton
@@ -186,7 +246,7 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     object btnLimpar_Resultados: TButton
       Left = 11
       Height = 34
-      Top = 238
+      Top = 375
       Width = 75
       Anchors = [akRight, akBottom]
       Caption = '&Limpar resultados'

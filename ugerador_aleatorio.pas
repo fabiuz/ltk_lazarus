@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, ComCtrls, Grids
+  StdCtrls, ComCtrls, Grids, CheckLst
 
 
   ;
@@ -72,20 +72,27 @@ type
     btnCopiar: TButton;
     btnExportar: TButton;
     btnLimpar_Resultados: TButton;
+    CheckListBox1 : TCheckListBox;
+    CheckListBox2 : TCheckListBox;
     chkAlternarParImpar: TCheckBox;
     cmbJogo_Tipo: TComboBox;
     cmbJogo_com: TComboBox;
     cmbJogo_Quantidade: TComboBox;
+    gradeJogos : TStringGrid;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6 : TLabel;
+    Label7 : TLabel;
+    PageControl1 : TPageControl;
     panel_Superior: TPanel;
     Panel2: TPanel;
     panel_Direito: TPanel;
     StatusBar1: TStatusBar;
-    gradeJogos: TStringGrid;
+    TabSheet1 : TTabSheet;
+    TabSheet2 : TTabSheet;
     procedure btnCopiarClick(Sender: TObject);
     procedure btnExportarClick(Sender: TObject);
     procedure btnGerarClick(Sender: TObject);
@@ -1039,7 +1046,8 @@ begin
               Inc(iB);
               // Continua até chegar ao fim do loop
               Continue;
-						end;
+
+            end;
 
             // Percorremos todos os ítens, agora, pegar os números que serão fixos.
             while listaNumero.Count <> 0 do
