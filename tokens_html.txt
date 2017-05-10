@@ -239,10 +239,10 @@
 		});
 
 					$('#fld_from').val(
-[       218] '01/01/1900'
+[       218] '01/01/2017'
 [       219] );
 			$('#fld_to').val(
-[       220] '18/03/2017'
+[       220] '01/05/2017'
 [       221] );
 		
 	});
@@ -300,7 +300,7 @@
 [       265] "background1"
 [       266] style
 [       267] =
-[       268] "background: url(http://www.intralot.com.br/newsite/images/bg/bg-1309201715119420.jpg) no-repeat fixed;"
+[       268] "background: url(http://www.intralot.com.br/newsite/images/bg/bg-1309201718362751.jpg) no-repeat fixed;"
 [       269] >
 [       270] </div>
 [       271] <div
@@ -312,7 +312,7 @@
 [       277] "background2"
 [       278] style
 [       279] =
-[       280] "background: url(http://www.intralot.com.br/newsite/images/bg/bg-1309201718362751.jpg) no-repeat fixed;"
+[       280] "background: url(http://www.intralot.com.br/newsite/images/bg/bg-1309201715119420.jpg) no-repeat fixed;"
 [       281] >
 [       282] </div>
 [       283] <!--
@@ -1138,7 +1138,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1090] "Número do jogo inicial"
 [      1091] value
 [      1092] =
-[      1093] "01/01/1900"
+[      1093] "01/01/2017"
 [      1094] />
 [      1095] à
 [      1096] <input
@@ -1162,7 +1162,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1114] "Número do jogo final"
 [      1115] value
 [      1116] =
-[      1117] "18/03/2017"
+[      1117] "01/05/2017"
 [      1118] />
 [      1119] </div>
 [      1120] </fieldset>
@@ -1203,7 +1203,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1155] </strong>
 [      1156] de número
 [      1157] <strong>
-[      1158] 504706 à 504697
+[      1158] 514616 à 514607
 [      1159] </strong>
 [      1160] </div>
 [      1161] <div
@@ -1216,7 +1216,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1168] =
 [      1169] "num_id"
 [      1170] >
-[      1171] Número: 504706 Data:18/03/2017 20:30:00
+[      1171] Número: 514616 Data:01/05/2017 14:00:00
 [      1172] </span>
 [      1173] <div
 [      1174] class
@@ -1229,7 +1229,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1181] "bolao"
 [      1182] >
 [      1183] <p>
-[      1184] 06
+[      1184] 03
 [      1185] </p>
 [      1186] </span>
 [      1187] <span
@@ -1238,7 +1238,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1190] "bolao"
 [      1191] >
 [      1192] <p>
-[      1193] 07
+[      1193] 04
 [      1194] </p>
 [      1195] </span>
 [      1196] <span
@@ -1247,7 +1247,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1199] "bolao"
 [      1200] >
 [      1201] <p>
-[      1202] 08
+[      1202] 05
 [      1203] </p>
 [      1204] </span>
 [      1205] <span
@@ -1256,7 +1256,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1208] "bolao"
 [      1209] >
 [      1210] <p>
-[      1211] 11
+[      1211] 09
 [      1212] </p>
 [      1213] </span>
 [      1214] <span
@@ -1265,7 +1265,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1217] "bolao"
 [      1218] >
 [      1219] <p>
-[      1220] 13
+[      1220] 15
 [      1221] </p>
 [      1222] </span>
 [      1223] <span
@@ -1274,7 +1274,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1226] "bolao"
 [      1227] >
 [      1228] <p>
-[      1229] 15
+[      1229] 18
 [      1230] </p>
 [      1231] </span>
 [      1232] <span
@@ -1283,7 +1283,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1235] "bolao"
 [      1236] >
 [      1237] <p>
-[      1238] 17
+[      1238] 20
 [      1239] </p>
 [      1240] </span>
 [      1241] <span
@@ -1292,7 +1292,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1244] "bolao"
 [      1245] >
 [      1246] <p>
-[      1247] 19
+[      1247] 31
 [      1248] </p>
 [      1249] </span>
 [      1250] <span
@@ -1301,7 +1301,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1253] "bolao"
 [      1254] >
 [      1255] <p>
-[      1256] 25
+[      1256] 32
 [      1257] </p>
 [      1258] </span>
 [      1259] <span
@@ -1310,7 +1310,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1262] "bolao"
 [      1263] >
 [      1264] <p>
-[      1265] 29
+[      1265] 33
 [      1266] </p>
 [      1267] </span>
 [      1268] <span
@@ -1319,7 +1319,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1271] "bolao"
 [      1272] >
 [      1273] <p>
-[      1274] 41
+[      1274] 34
 [      1275] </p>
 [      1276] </span>
 [      1277] <span
@@ -1328,7 +1328,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1280] "bolao"
 [      1281] >
 [      1282] <p>
-[      1283] 44
+[      1283] 37
 [      1284] </p>
 [      1285] </span>
 [      1286] <span
@@ -1337,7 +1337,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1289] "bolao"
 [      1290] >
 [      1291] <p>
-[      1292] 45
+[      1292] 42
 [      1293] </p>
 [      1294] </span>
 [      1295] <span
@@ -1346,7 +1346,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1298] "bolao"
 [      1299] >
 [      1300] <p>
-[      1301] 53
+[      1301] 46
 [      1302] </p>
 [      1303] </span>
 [      1304] <span
@@ -1355,7 +1355,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1307] "bolao"
 [      1308] >
 [      1309] <p>
-[      1310] 54
+[      1310] 48
 [      1311] </p>
 [      1312] </span>
 [      1313] <span
@@ -1364,7 +1364,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1316] "bolao"
 [      1317] >
 [      1318] <p>
-[      1319] 55
+[      1319] 53
 [      1320] </p>
 [      1321] </span>
 [      1322] <span
@@ -1373,7 +1373,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1325] "bolao"
 [      1326] >
 [      1327] <p>
-[      1328] 56
+[      1328] 55
 [      1329] </p>
 [      1330] </span>
 [      1331] <span
@@ -1382,7 +1382,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1334] "bolao"
 [      1335] >
 [      1336] <p>
-[      1337] 60
+[      1337] 56
 [      1338] </p>
 [      1339] </span>
 [      1340] <span
@@ -1391,7 +1391,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1343] "bolao"
 [      1344] >
 [      1345] <p>
-[      1346] 63
+[      1346] 67
 [      1347] </p>
 [      1348] </span>
 [      1349] <span
@@ -1400,7 +1400,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1352] "bolao"
 [      1353] >
 [      1354] <p>
-[      1355] 72
+[      1355] 76
 [      1356] </p>
 [      1357] </span>
 [      1358] </div>
@@ -1415,7 +1415,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1367] =
 [      1368] "num_id"
 [      1369] >
-[      1370] Número: 504705 Data:18/03/2017 20:25:00
+[      1370] Número: 514615 Data:01/05/2017 13:55:00
 [      1371] </span>
 [      1372] <div
 [      1373] class
@@ -1428,7 +1428,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1380] "bolao"
 [      1381] >
 [      1382] <p>
-[      1383] 06
+[      1383] 08
 [      1384] </p>
 [      1385] </span>
 [      1386] <span
@@ -1437,7 +1437,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1389] "bolao"
 [      1390] >
 [      1391] <p>
-[      1392] 10
+[      1392] 16
 [      1393] </p>
 [      1394] </span>
 [      1395] <span
@@ -1446,7 +1446,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1398] "bolao"
 [      1399] >
 [      1400] <p>
-[      1401] 14
+[      1401] 17
 [      1402] </p>
 [      1403] </span>
 [      1404] <span
@@ -1464,7 +1464,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1416] "bolao"
 [      1417] >
 [      1418] <p>
-[      1419] 19
+[      1419] 20
 [      1420] </p>
 [      1421] </span>
 [      1422] <span
@@ -1473,7 +1473,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1425] "bolao"
 [      1426] >
 [      1427] <p>
-[      1428] 28
+[      1428] 21
 [      1429] </p>
 [      1430] </span>
 [      1431] <span
@@ -1482,7 +1482,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1434] "bolao"
 [      1435] >
 [      1436] <p>
-[      1437] 30
+[      1437] 24
 [      1438] </p>
 [      1439] </span>
 [      1440] <span
@@ -1491,7 +1491,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1443] "bolao"
 [      1444] >
 [      1445] <p>
-[      1446] 31
+[      1446] 29
 [      1447] </p>
 [      1448] </span>
 [      1449] <span
@@ -1500,7 +1500,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1452] "bolao"
 [      1453] >
 [      1454] <p>
-[      1455] 33
+[      1455] 30
 [      1456] </p>
 [      1457] </span>
 [      1458] <span
@@ -1509,7 +1509,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1461] "bolao"
 [      1462] >
 [      1463] <p>
-[      1464] 36
+[      1464] 32
 [      1465] </p>
 [      1466] </span>
 [      1467] <span
@@ -1518,7 +1518,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1470] "bolao"
 [      1471] >
 [      1472] <p>
-[      1473] 48
+[      1473] 33
 [      1474] </p>
 [      1475] </span>
 [      1476] <span
@@ -1527,7 +1527,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1479] "bolao"
 [      1480] >
 [      1481] <p>
-[      1482] 51
+[      1482] 42
 [      1483] </p>
 [      1484] </span>
 [      1485] <span
@@ -1536,7 +1536,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1488] "bolao"
 [      1489] >
 [      1490] <p>
-[      1491] 52
+[      1491] 46
 [      1492] </p>
 [      1493] </span>
 [      1494] <span
@@ -1545,7 +1545,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1497] "bolao"
 [      1498] >
 [      1499] <p>
-[      1500] 55
+[      1500] 48
 [      1501] </p>
 [      1502] </span>
 [      1503] <span
@@ -1554,7 +1554,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1506] "bolao"
 [      1507] >
 [      1508] <p>
-[      1509] 57
+[      1509] 55
 [      1510] </p>
 [      1511] </span>
 [      1512] <span
@@ -1563,7 +1563,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1515] "bolao"
 [      1516] >
 [      1517] <p>
-[      1518] 60
+[      1518] 59
 [      1519] </p>
 [      1520] </span>
 [      1521] <span
@@ -1572,7 +1572,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1524] "bolao"
 [      1525] >
 [      1526] <p>
-[      1527] 61
+[      1527] 60
 [      1528] </p>
 [      1529] </span>
 [      1530] <span
@@ -1581,7 +1581,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1533] "bolao"
 [      1534] >
 [      1535] <p>
-[      1536] 63
+[      1536] 66
 [      1537] </p>
 [      1538] </span>
 [      1539] <span
@@ -1590,7 +1590,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1542] "bolao"
 [      1543] >
 [      1544] <p>
-[      1545] 66
+[      1545] 68
 [      1546] </p>
 [      1547] </span>
 [      1548] <span
@@ -1599,7 +1599,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1551] "bolao"
 [      1552] >
 [      1553] <p>
-[      1554] 77
+[      1554] 73
 [      1555] </p>
 [      1556] </span>
 [      1557] </div>
@@ -1614,7 +1614,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1566] =
 [      1567] "num_id"
 [      1568] >
-[      1569] Número: 504704 Data:18/03/2017 20:20:00
+[      1569] Número: 514614 Data:01/05/2017 13:50:00
 [      1570] </span>
 [      1571] <div
 [      1572] class
@@ -1627,7 +1627,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1579] "bolao"
 [      1580] >
 [      1581] <p>
-[      1582] 02
+[      1582] 03
 [      1583] </p>
 [      1584] </span>
 [      1585] <span
@@ -1636,7 +1636,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1588] "bolao"
 [      1589] >
 [      1590] <p>
-[      1591] 03
+[      1591] 07
 [      1592] </p>
 [      1593] </span>
 [      1594] <span
@@ -1645,7 +1645,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1597] "bolao"
 [      1598] >
 [      1599] <p>
-[      1600] 04
+[      1600] 10
 [      1601] </p>
 [      1602] </span>
 [      1603] <span
@@ -1654,7 +1654,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1606] "bolao"
 [      1607] >
 [      1608] <p>
-[      1609] 05
+[      1609] 12
 [      1610] </p>
 [      1611] </span>
 [      1612] <span
@@ -1663,7 +1663,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1615] "bolao"
 [      1616] >
 [      1617] <p>
-[      1618] 07
+[      1618] 16
 [      1619] </p>
 [      1620] </span>
 [      1621] <span
@@ -1672,7 +1672,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1624] "bolao"
 [      1625] >
 [      1626] <p>
-[      1627] 09
+[      1627] 17
 [      1628] </p>
 [      1629] </span>
 [      1630] <span
@@ -1681,7 +1681,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1633] "bolao"
 [      1634] >
 [      1635] <p>
-[      1636] 16
+[      1636] 20
 [      1637] </p>
 [      1638] </span>
 [      1639] <span
@@ -1708,7 +1708,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1660] "bolao"
 [      1661] >
 [      1662] <p>
-[      1663] 33
+[      1663] 25
 [      1664] </p>
 [      1665] </span>
 [      1666] <span
@@ -1717,7 +1717,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1669] "bolao"
 [      1670] >
 [      1671] <p>
-[      1672] 39
+[      1672] 29
 [      1673] </p>
 [      1674] </span>
 [      1675] <span
@@ -1726,7 +1726,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1678] "bolao"
 [      1679] >
 [      1680] <p>
-[      1681] 41
+[      1681] 42
 [      1682] </p>
 [      1683] </span>
 [      1684] <span
@@ -1735,7 +1735,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1687] "bolao"
 [      1688] >
 [      1689] <p>
-[      1690] 59
+[      1690] 47
 [      1691] </p>
 [      1692] </span>
 [      1693] <span
@@ -1744,7 +1744,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1696] "bolao"
 [      1697] >
 [      1698] <p>
-[      1699] 60
+[      1699] 55
 [      1700] </p>
 [      1701] </span>
 [      1702] <span
@@ -1762,7 +1762,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1714] "bolao"
 [      1715] >
 [      1716] <p>
-[      1717] 62
+[      1717] 63
 [      1718] </p>
 [      1719] </span>
 [      1720] <span
@@ -1771,7 +1771,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1723] "bolao"
 [      1724] >
 [      1725] <p>
-[      1726] 63
+[      1726] 65
 [      1727] </p>
 [      1728] </span>
 [      1729] <span
@@ -1780,7 +1780,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1732] "bolao"
 [      1733] >
 [      1734] <p>
-[      1735] 69
+[      1735] 70
 [      1736] </p>
 [      1737] </span>
 [      1738] <span
@@ -1789,7 +1789,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1741] "bolao"
 [      1742] >
 [      1743] <p>
-[      1744] 74
+[      1744] 73
 [      1745] </p>
 [      1746] </span>
 [      1747] <span
@@ -1798,7 +1798,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1750] "bolao"
 [      1751] >
 [      1752] <p>
-[      1753] 78
+[      1753] 74
 [      1754] </p>
 [      1755] </span>
 [      1756] </div>
@@ -1813,7 +1813,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1765] =
 [      1766] "num_id"
 [      1767] >
-[      1768] Número: 504703 Data:18/03/2017 20:15:00
+[      1768] Número: 514613 Data:01/05/2017 13:45:00
 [      1769] </span>
 [      1770] <div
 [      1771] class
@@ -1826,7 +1826,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1778] "bolao"
 [      1779] >
 [      1780] <p>
-[      1781] 01
+[      1781] 02
 [      1782] </p>
 [      1783] </span>
 [      1784] <span
@@ -1835,7 +1835,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1787] "bolao"
 [      1788] >
 [      1789] <p>
-[      1790] 02
+[      1790] 04
 [      1791] </p>
 [      1792] </span>
 [      1793] <span
@@ -1844,7 +1844,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1796] "bolao"
 [      1797] >
 [      1798] <p>
-[      1799] 09
+[      1799] 06
 [      1800] </p>
 [      1801] </span>
 [      1802] <span
@@ -1853,7 +1853,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1805] "bolao"
 [      1806] >
 [      1807] <p>
-[      1808] 11
+[      1808] 12
 [      1809] </p>
 [      1810] </span>
 [      1811] <span
@@ -1862,7 +1862,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1814] "bolao"
 [      1815] >
 [      1816] <p>
-[      1817] 27
+[      1817] 14
 [      1818] </p>
 [      1819] </span>
 [      1820] <span
@@ -1871,7 +1871,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1823] "bolao"
 [      1824] >
 [      1825] <p>
-[      1826] 28
+[      1826] 16
 [      1827] </p>
 [      1828] </span>
 [      1829] <span
@@ -1880,7 +1880,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1832] "bolao"
 [      1833] >
 [      1834] <p>
-[      1835] 30
+[      1835] 18
 [      1836] </p>
 [      1837] </span>
 [      1838] <span
@@ -1889,7 +1889,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1841] "bolao"
 [      1842] >
 [      1843] <p>
-[      1844] 32
+[      1844] 22
 [      1845] </p>
 [      1846] </span>
 [      1847] <span
@@ -1898,7 +1898,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1850] "bolao"
 [      1851] >
 [      1852] <p>
-[      1853] 33
+[      1853] 38
 [      1854] </p>
 [      1855] </span>
 [      1856] <span
@@ -1907,7 +1907,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1859] "bolao"
 [      1860] >
 [      1861] <p>
-[      1862] 38
+[      1862] 40
 [      1863] </p>
 [      1864] </span>
 [      1865] <span
@@ -1916,7 +1916,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1868] "bolao"
 [      1869] >
 [      1870] <p>
-[      1871] 44
+[      1871] 43
 [      1872] </p>
 [      1873] </span>
 [      1874] <span
@@ -1925,7 +1925,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1877] "bolao"
 [      1878] >
 [      1879] <p>
-[      1880] 45
+[      1880] 44
 [      1881] </p>
 [      1882] </span>
 [      1883] <span
@@ -1934,7 +1934,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1886] "bolao"
 [      1887] >
 [      1888] <p>
-[      1889] 50
+[      1889] 47
 [      1890] </p>
 [      1891] </span>
 [      1892] <span
@@ -1943,7 +1943,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1895] "bolao"
 [      1896] >
 [      1897] <p>
-[      1898] 52
+[      1898] 48
 [      1899] </p>
 [      1900] </span>
 [      1901] <span
@@ -1952,7 +1952,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1904] "bolao"
 [      1905] >
 [      1906] <p>
-[      1907] 54
+[      1907] 51
 [      1908] </p>
 [      1909] </span>
 [      1910] <span
@@ -1961,7 +1961,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1913] "bolao"
 [      1914] >
 [      1915] <p>
-[      1916] 62
+[      1916] 69
 [      1917] </p>
 [      1918] </span>
 [      1919] <span
@@ -1970,7 +1970,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1922] "bolao"
 [      1923] >
 [      1924] <p>
-[      1925] 65
+[      1925] 70
 [      1926] </p>
 [      1927] </span>
 [      1928] <span
@@ -1979,7 +1979,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1931] "bolao"
 [      1932] >
 [      1933] <p>
-[      1934] 70
+[      1934] 71
 [      1935] </p>
 [      1936] </span>
 [      1937] <span
@@ -1988,7 +1988,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1940] "bolao"
 [      1941] >
 [      1942] <p>
-[      1943] 72
+[      1943] 73
 [      1944] </p>
 [      1945] </span>
 [      1946] <span
@@ -1997,7 +1997,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1949] "bolao"
 [      1950] >
 [      1951] <p>
-[      1952] 74
+[      1952] 77
 [      1953] </p>
 [      1954] </span>
 [      1955] </div>
@@ -2012,7 +2012,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1964] =
 [      1965] "num_id"
 [      1966] >
-[      1967] Número: 504702 Data:18/03/2017 20:10:00
+[      1967] Número: 514612 Data:01/05/2017 13:40:00
 [      1968] </span>
 [      1969] <div
 [      1970] class
@@ -2025,7 +2025,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1977] "bolao"
 [      1978] >
 [      1979] <p>
-[      1980] 01
+[      1980] 05
 [      1981] </p>
 [      1982] </span>
 [      1983] <span
@@ -2034,7 +2034,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1986] "bolao"
 [      1987] >
 [      1988] <p>
-[      1989] 02
+[      1989] 06
 [      1990] </p>
 [      1991] </span>
 [      1992] <span
@@ -2043,7 +2043,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      1995] "bolao"
 [      1996] >
 [      1997] <p>
-[      1998] 07
+[      1998] 11
 [      1999] </p>
 [      2000] </span>
 [      2001] <span
@@ -2052,7 +2052,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2004] "bolao"
 [      2005] >
 [      2006] <p>
-[      2007] 15
+[      2007] 19
 [      2008] </p>
 [      2009] </span>
 [      2010] <span
@@ -2061,7 +2061,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2013] "bolao"
 [      2014] >
 [      2015] <p>
-[      2016] 34
+[      2016] 21
 [      2017] </p>
 [      2018] </span>
 [      2019] <span
@@ -2070,7 +2070,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2022] "bolao"
 [      2023] >
 [      2024] <p>
-[      2025] 36
+[      2025] 25
 [      2026] </p>
 [      2027] </span>
 [      2028] <span
@@ -2079,7 +2079,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2031] "bolao"
 [      2032] >
 [      2033] <p>
-[      2034] 39
+[      2034] 29
 [      2035] </p>
 [      2036] </span>
 [      2037] <span
@@ -2088,7 +2088,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2040] "bolao"
 [      2041] >
 [      2042] <p>
-[      2043] 40
+[      2043] 31
 [      2044] </p>
 [      2045] </span>
 [      2046] <span
@@ -2097,7 +2097,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2049] "bolao"
 [      2050] >
 [      2051] <p>
-[      2052] 42
+[      2052] 36
 [      2053] </p>
 [      2054] </span>
 [      2055] <span
@@ -2106,7 +2106,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2058] "bolao"
 [      2059] >
 [      2060] <p>
-[      2061] 47
+[      2061] 44
 [      2062] </p>
 [      2063] </span>
 [      2064] <span
@@ -2115,7 +2115,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2067] "bolao"
 [      2068] >
 [      2069] <p>
-[      2070] 48
+[      2070] 46
 [      2071] </p>
 [      2072] </span>
 [      2073] <span
@@ -2124,7 +2124,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2076] "bolao"
 [      2077] >
 [      2078] <p>
-[      2079] 52
+[      2079] 47
 [      2080] </p>
 [      2081] </span>
 [      2082] <span
@@ -2151,7 +2151,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2103] "bolao"
 [      2104] >
 [      2105] <p>
-[      2106] 61
+[      2106] 59
 [      2107] </p>
 [      2108] </span>
 [      2109] <span
@@ -2160,7 +2160,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2112] "bolao"
 [      2113] >
 [      2114] <p>
-[      2115] 64
+[      2115] 69
 [      2116] </p>
 [      2117] </span>
 [      2118] <span
@@ -2169,7 +2169,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2121] "bolao"
 [      2122] >
 [      2123] <p>
-[      2124] 65
+[      2124] 70
 [      2125] </p>
 [      2126] </span>
 [      2127] <span
@@ -2178,7 +2178,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2130] "bolao"
 [      2131] >
 [      2132] <p>
-[      2133] 67
+[      2133] 73
 [      2134] </p>
 [      2135] </span>
 [      2136] <span
@@ -2187,7 +2187,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2139] "bolao"
 [      2140] >
 [      2141] <p>
-[      2142] 70
+[      2142] 76
 [      2143] </p>
 [      2144] </span>
 [      2145] <span
@@ -2196,7 +2196,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2148] "bolao"
 [      2149] >
 [      2150] <p>
-[      2151] 79
+[      2151] 80
 [      2152] </p>
 [      2153] </span>
 [      2154] </div>
@@ -2211,7 +2211,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2163] =
 [      2164] "num_id"
 [      2165] >
-[      2166] Número: 504701 Data:18/03/2017 20:05:00
+[      2166] Número: 514611 Data:01/05/2017 13:35:00
 [      2167] </span>
 [      2168] <div
 [      2169] class
@@ -2224,7 +2224,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2176] "bolao"
 [      2177] >
 [      2178] <p>
-[      2179] 10
+[      2179] 02
 [      2180] </p>
 [      2181] </span>
 [      2182] <span
@@ -2233,7 +2233,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2185] "bolao"
 [      2186] >
 [      2187] <p>
-[      2188] 12
+[      2188] 07
 [      2189] </p>
 [      2190] </span>
 [      2191] <span
@@ -2242,7 +2242,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2194] "bolao"
 [      2195] >
 [      2196] <p>
-[      2197] 18
+[      2197] 08
 [      2198] </p>
 [      2199] </span>
 [      2200] <span
@@ -2251,7 +2251,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2203] "bolao"
 [      2204] >
 [      2205] <p>
-[      2206] 21
+[      2206] 17
 [      2207] </p>
 [      2208] </span>
 [      2209] <span
@@ -2260,7 +2260,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2212] "bolao"
 [      2213] >
 [      2214] <p>
-[      2215] 29
+[      2215] 18
 [      2216] </p>
 [      2217] </span>
 [      2218] <span
@@ -2269,7 +2269,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2221] "bolao"
 [      2222] >
 [      2223] <p>
-[      2224] 35
+[      2224] 19
 [      2225] </p>
 [      2226] </span>
 [      2227] <span
@@ -2278,7 +2278,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2230] "bolao"
 [      2231] >
 [      2232] <p>
-[      2233] 36
+[      2233] 22
 [      2234] </p>
 [      2235] </span>
 [      2236] <span
@@ -2287,7 +2287,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2239] "bolao"
 [      2240] >
 [      2241] <p>
-[      2242] 38
+[      2242] 23
 [      2243] </p>
 [      2244] </span>
 [      2245] <span
@@ -2296,7 +2296,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2248] "bolao"
 [      2249] >
 [      2250] <p>
-[      2251] 39
+[      2251] 27
 [      2252] </p>
 [      2253] </span>
 [      2254] <span
@@ -2305,7 +2305,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2257] "bolao"
 [      2258] >
 [      2259] <p>
-[      2260] 52
+[      2260] 28
 [      2261] </p>
 [      2262] </span>
 [      2263] <span
@@ -2314,7 +2314,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2266] "bolao"
 [      2267] >
 [      2268] <p>
-[      2269] 55
+[      2269] 29
 [      2270] </p>
 [      2271] </span>
 [      2272] <span
@@ -2323,7 +2323,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2275] "bolao"
 [      2276] >
 [      2277] <p>
-[      2278] 56
+[      2278] 32
 [      2279] </p>
 [      2280] </span>
 [      2281] <span
@@ -2332,7 +2332,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2284] "bolao"
 [      2285] >
 [      2286] <p>
-[      2287] 58
+[      2287] 47
 [      2288] </p>
 [      2289] </span>
 [      2290] <span
@@ -2341,7 +2341,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2293] "bolao"
 [      2294] >
 [      2295] <p>
-[      2296] 59
+[      2296] 61
 [      2297] </p>
 [      2298] </span>
 [      2299] <span
@@ -2350,7 +2350,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2302] "bolao"
 [      2303] >
 [      2304] <p>
-[      2305] 62
+[      2305] 67
 [      2306] </p>
 [      2307] </span>
 [      2308] <span
@@ -2359,7 +2359,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2311] "bolao"
 [      2312] >
 [      2313] <p>
-[      2314] 65
+[      2314] 70
 [      2315] </p>
 [      2316] </span>
 [      2317] <span
@@ -2368,7 +2368,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2320] "bolao"
 [      2321] >
 [      2322] <p>
-[      2323] 71
+[      2323] 72
 [      2324] </p>
 [      2325] </span>
 [      2326] <span
@@ -2377,7 +2377,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2329] "bolao"
 [      2330] >
 [      2331] <p>
-[      2332] 76
+[      2332] 75
 [      2333] </p>
 [      2334] </span>
 [      2335] <span
@@ -2386,7 +2386,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2338] "bolao"
 [      2339] >
 [      2340] <p>
-[      2341] 77
+[      2341] 76
 [      2342] </p>
 [      2343] </span>
 [      2344] <span
@@ -2395,7 +2395,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2347] "bolao"
 [      2348] >
 [      2349] <p>
-[      2350] 78
+[      2350] 79
 [      2351] </p>
 [      2352] </span>
 [      2353] </div>
@@ -2410,7 +2410,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2362] =
 [      2363] "num_id"
 [      2364] >
-[      2365] Número: 504700 Data:18/03/2017 20:00:00
+[      2365] Número: 514610 Data:01/05/2017 13:30:00
 [      2366] </span>
 [      2367] <div
 [      2368] class
@@ -2423,7 +2423,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2375] "bolao"
 [      2376] >
 [      2377] <p>
-[      2378] 02
+[      2378] 01
 [      2379] </p>
 [      2380] </span>
 [      2381] <span
@@ -2432,7 +2432,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2384] "bolao"
 [      2385] >
 [      2386] <p>
-[      2387] 03
+[      2387] 09
 [      2388] </p>
 [      2389] </span>
 [      2390] <span
@@ -2441,7 +2441,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2393] "bolao"
 [      2394] >
 [      2395] <p>
-[      2396] 06
+[      2396] 14
 [      2397] </p>
 [      2398] </span>
 [      2399] <span
@@ -2459,7 +2459,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2411] "bolao"
 [      2412] >
 [      2413] <p>
-[      2414] 27
+[      2414] 24
 [      2415] </p>
 [      2416] </span>
 [      2417] <span
@@ -2468,7 +2468,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2420] "bolao"
 [      2421] >
 [      2422] <p>
-[      2423] 31
+[      2423] 27
 [      2424] </p>
 [      2425] </span>
 [      2426] <span
@@ -2477,7 +2477,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2429] "bolao"
 [      2430] >
 [      2431] <p>
-[      2432] 40
+[      2432] 30
 [      2433] </p>
 [      2434] </span>
 [      2435] <span
@@ -2486,7 +2486,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2438] "bolao"
 [      2439] >
 [      2440] <p>
-[      2441] 41
+[      2441] 36
 [      2442] </p>
 [      2443] </span>
 [      2444] <span
@@ -2495,7 +2495,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2447] "bolao"
 [      2448] >
 [      2449] <p>
-[      2450] 42
+[      2450] 39
 [      2451] </p>
 [      2452] </span>
 [      2453] <span
@@ -2504,7 +2504,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2456] "bolao"
 [      2457] >
 [      2458] <p>
-[      2459] 46
+[      2459] 42
 [      2460] </p>
 [      2461] </span>
 [      2462] <span
@@ -2513,7 +2513,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2465] "bolao"
 [      2466] >
 [      2467] <p>
-[      2468] 50
+[      2468] 48
 [      2469] </p>
 [      2470] </span>
 [      2471] <span
@@ -2522,7 +2522,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2474] "bolao"
 [      2475] >
 [      2476] <p>
-[      2477] 55
+[      2477] 49
 [      2478] </p>
 [      2479] </span>
 [      2480] <span
@@ -2531,7 +2531,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2483] "bolao"
 [      2484] >
 [      2485] <p>
-[      2486] 57
+[      2486] 53
 [      2487] </p>
 [      2488] </span>
 [      2489] <span
@@ -2540,7 +2540,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2492] "bolao"
 [      2493] >
 [      2494] <p>
-[      2495] 60
+[      2495] 55
 [      2496] </p>
 [      2497] </span>
 [      2498] <span
@@ -2549,7 +2549,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2501] "bolao"
 [      2502] >
 [      2503] <p>
-[      2504] 65
+[      2504] 64
 [      2505] </p>
 [      2506] </span>
 [      2507] <span
@@ -2558,7 +2558,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2510] "bolao"
 [      2511] >
 [      2512] <p>
-[      2513] 72
+[      2513] 71
 [      2514] </p>
 [      2515] </span>
 [      2516] <span
@@ -2576,7 +2576,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2528] "bolao"
 [      2529] >
 [      2530] <p>
-[      2531] 77
+[      2531] 76
 [      2532] </p>
 [      2533] </span>
 [      2534] <span
@@ -2585,7 +2585,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2537] "bolao"
 [      2538] >
 [      2539] <p>
-[      2540] 78
+[      2540] 77
 [      2541] </p>
 [      2542] </span>
 [      2543] <span
@@ -2609,7 +2609,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2561] =
 [      2562] "num_id"
 [      2563] >
-[      2564] Número: 504699 Data:18/03/2017 19:55:00
+[      2564] Número: 514609 Data:01/05/2017 13:25:00
 [      2565] </span>
 [      2566] <div
 [      2567] class
@@ -2631,7 +2631,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2583] "bolao"
 [      2584] >
 [      2585] <p>
-[      2586] 05
+[      2586] 06
 [      2587] </p>
 [      2588] </span>
 [      2589] <span
@@ -2640,7 +2640,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2592] "bolao"
 [      2593] >
 [      2594] <p>
-[      2595] 08
+[      2595] 10
 [      2596] </p>
 [      2597] </span>
 [      2598] <span
@@ -2649,7 +2649,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2601] "bolao"
 [      2602] >
 [      2603] <p>
-[      2604] 10
+[      2604] 16
 [      2605] </p>
 [      2606] </span>
 [      2607] <span
@@ -2658,7 +2658,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2610] "bolao"
 [      2611] >
 [      2612] <p>
-[      2613] 17
+[      2613] 20
 [      2614] </p>
 [      2615] </span>
 [      2616] <span
@@ -2667,7 +2667,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2619] "bolao"
 [      2620] >
 [      2621] <p>
-[      2622] 20
+[      2622] 26
 [      2623] </p>
 [      2624] </span>
 [      2625] <span
@@ -2676,7 +2676,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2628] "bolao"
 [      2629] >
 [      2630] <p>
-[      2631] 25
+[      2631] 30
 [      2632] </p>
 [      2633] </span>
 [      2634] <span
@@ -2685,7 +2685,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2637] "bolao"
 [      2638] >
 [      2639] <p>
-[      2640] 26
+[      2640] 31
 [      2641] </p>
 [      2642] </span>
 [      2643] <span
@@ -2694,7 +2694,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2646] "bolao"
 [      2647] >
 [      2648] <p>
-[      2649] 33
+[      2649] 37
 [      2650] </p>
 [      2651] </span>
 [      2652] <span
@@ -2703,7 +2703,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2655] "bolao"
 [      2656] >
 [      2657] <p>
-[      2658] 34
+[      2658] 47
 [      2659] </p>
 [      2660] </span>
 [      2661] <span
@@ -2712,7 +2712,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2664] "bolao"
 [      2665] >
 [      2666] <p>
-[      2667] 35
+[      2667] 51
 [      2668] </p>
 [      2669] </span>
 [      2670] <span
@@ -2721,7 +2721,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2673] "bolao"
 [      2674] >
 [      2675] <p>
-[      2676] 38
+[      2676] 56
 [      2677] </p>
 [      2678] </span>
 [      2679] <span
@@ -2730,7 +2730,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2682] "bolao"
 [      2683] >
 [      2684] <p>
-[      2685] 47
+[      2685] 59
 [      2686] </p>
 [      2687] </span>
 [      2688] <span
@@ -2739,7 +2739,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2691] "bolao"
 [      2692] >
 [      2693] <p>
-[      2694] 49
+[      2694] 62
 [      2695] </p>
 [      2696] </span>
 [      2697] <span
@@ -2748,7 +2748,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2700] "bolao"
 [      2701] >
 [      2702] <p>
-[      2703] 59
+[      2703] 65
 [      2704] </p>
 [      2705] </span>
 [      2706] <span
@@ -2757,7 +2757,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2709] "bolao"
 [      2710] >
 [      2711] <p>
-[      2712] 60
+[      2712] 66
 [      2713] </p>
 [      2714] </span>
 [      2715] <span
@@ -2766,7 +2766,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2718] "bolao"
 [      2719] >
 [      2720] <p>
-[      2721] 67
+[      2721] 68
 [      2722] </p>
 [      2723] </span>
 [      2724] <span
@@ -2775,7 +2775,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2727] "bolao"
 [      2728] >
 [      2729] <p>
-[      2730] 70
+[      2730] 69
 [      2731] </p>
 [      2732] </span>
 [      2733] <span
@@ -2784,7 +2784,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2736] "bolao"
 [      2737] >
 [      2738] <p>
-[      2739] 74
+[      2739] 71
 [      2740] </p>
 [      2741] </span>
 [      2742] <span
@@ -2808,7 +2808,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2760] =
 [      2761] "num_id"
 [      2762] >
-[      2763] Número: 504698 Data:18/03/2017 19:50:00
+[      2763] Número: 514608 Data:01/05/2017 13:20:00
 [      2764] </span>
 [      2765] <div
 [      2766] class
@@ -2821,7 +2821,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2773] "bolao"
 [      2774] >
 [      2775] <p>
-[      2776] 09
+[      2776] 02
 [      2777] </p>
 [      2778] </span>
 [      2779] <span
@@ -2839,7 +2839,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2791] "bolao"
 [      2792] >
 [      2793] <p>
-[      2794] 18
+[      2794] 17
 [      2795] </p>
 [      2796] </span>
 [      2797] <span
@@ -2848,7 +2848,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2800] "bolao"
 [      2801] >
 [      2802] <p>
-[      2803] 21
+[      2803] 18
 [      2804] </p>
 [      2805] </span>
 [      2806] <span
@@ -2857,7 +2857,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2809] "bolao"
 [      2810] >
 [      2811] <p>
-[      2812] 22
+[      2812] 25
 [      2813] </p>
 [      2814] </span>
 [      2815] <span
@@ -2866,7 +2866,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2818] "bolao"
 [      2819] >
 [      2820] <p>
-[      2821] 28
+[      2821] 26
 [      2822] </p>
 [      2823] </span>
 [      2824] <span
@@ -2875,7 +2875,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2827] "bolao"
 [      2828] >
 [      2829] <p>
-[      2830] 31
+[      2830] 29
 [      2831] </p>
 [      2832] </span>
 [      2833] <span
@@ -2884,7 +2884,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2836] "bolao"
 [      2837] >
 [      2838] <p>
-[      2839] 32
+[      2839] 34
 [      2840] </p>
 [      2841] </span>
 [      2842] <span
@@ -2893,7 +2893,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2845] "bolao"
 [      2846] >
 [      2847] <p>
-[      2848] 37
+[      2848] 35
 [      2849] </p>
 [      2850] </span>
 [      2851] <span
@@ -2902,7 +2902,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2854] "bolao"
 [      2855] >
 [      2856] <p>
-[      2857] 43
+[      2857] 38
 [      2858] </p>
 [      2859] </span>
 [      2860] <span
@@ -2911,7 +2911,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2863] "bolao"
 [      2864] >
 [      2865] <p>
-[      2866] 45
+[      2866] 49
 [      2867] </p>
 [      2868] </span>
 [      2869] <span
@@ -2920,7 +2920,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2872] "bolao"
 [      2873] >
 [      2874] <p>
-[      2875] 48
+[      2875] 52
 [      2876] </p>
 [      2877] </span>
 [      2878] <span
@@ -2929,7 +2929,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2881] "bolao"
 [      2882] >
 [      2883] <p>
-[      2884] 50
+[      2884] 57
 [      2885] </p>
 [      2886] </span>
 [      2887] <span
@@ -2938,7 +2938,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2890] "bolao"
 [      2891] >
 [      2892] <p>
-[      2893] 51
+[      2893] 62
 [      2894] </p>
 [      2895] </span>
 [      2896] <span
@@ -2947,7 +2947,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2899] "bolao"
 [      2900] >
 [      2901] <p>
-[      2902] 57
+[      2902] 64
 [      2903] </p>
 [      2904] </span>
 [      2905] <span
@@ -2956,7 +2956,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2908] "bolao"
 [      2909] >
 [      2910] <p>
-[      2911] 58
+[      2911] 67
 [      2912] </p>
 [      2913] </span>
 [      2914] <span
@@ -2965,7 +2965,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2917] "bolao"
 [      2918] >
 [      2919] <p>
-[      2920] 62
+[      2920] 69
 [      2921] </p>
 [      2922] </span>
 [      2923] <span
@@ -2974,7 +2974,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2926] "bolao"
 [      2927] >
 [      2928] <p>
-[      2929] 77
+[      2929] 71
 [      2930] </p>
 [      2931] </span>
 [      2932] <span
@@ -2983,7 +2983,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2935] "bolao"
 [      2936] >
 [      2937] <p>
-[      2938] 79
+[      2938] 77
 [      2939] </p>
 [      2940] </span>
 [      2941] <span
@@ -2992,7 +2992,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2944] "bolao"
 [      2945] >
 [      2946] <p>
-[      2947] 80
+[      2947] 79
 [      2948] </p>
 [      2949] </span>
 [      2950] </div>
@@ -3007,7 +3007,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2959] =
 [      2960] "num_id"
 [      2961] >
-[      2962] Número: 504697 Data:18/03/2017 19:45:00
+[      2962] Número: 514607 Data:01/05/2017 13:15:00
 [      2963] </span>
 [      2964] <div
 [      2965] class
@@ -3020,7 +3020,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2972] "bolao"
 [      2973] >
 [      2974] <p>
-[      2975] 06
+[      2975] 01
 [      2976] </p>
 [      2977] </span>
 [      2978] <span
@@ -3029,7 +3029,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2981] "bolao"
 [      2982] >
 [      2983] <p>
-[      2984] 08
+[      2984] 06
 [      2985] </p>
 [      2986] </span>
 [      2987] <span
@@ -3038,7 +3038,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2990] "bolao"
 [      2991] >
 [      2992] <p>
-[      2993] 11
+[      2993] 17
 [      2994] </p>
 [      2995] </span>
 [      2996] <span
@@ -3047,7 +3047,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      2999] "bolao"
 [      3000] >
 [      3001] <p>
-[      3002] 12
+[      3002] 20
 [      3003] </p>
 [      3004] </span>
 [      3005] <span
@@ -3056,7 +3056,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3008] "bolao"
 [      3009] >
 [      3010] <p>
-[      3011] 17
+[      3011] 22
 [      3012] </p>
 [      3013] </span>
 [      3014] <span
@@ -3065,7 +3065,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3017] "bolao"
 [      3018] >
 [      3019] <p>
-[      3020] 18
+[      3020] 24
 [      3021] </p>
 [      3022] </span>
 [      3023] <span
@@ -3074,7 +3074,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3026] "bolao"
 [      3027] >
 [      3028] <p>
-[      3029] 20
+[      3029] 26
 [      3030] </p>
 [      3031] </span>
 [      3032] <span
@@ -3083,7 +3083,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3035] "bolao"
 [      3036] >
 [      3037] <p>
-[      3038] 22
+[      3038] 31
 [      3039] </p>
 [      3040] </span>
 [      3041] <span
@@ -3092,7 +3092,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3044] "bolao"
 [      3045] >
 [      3046] <p>
-[      3047] 33
+[      3047] 36
 [      3048] </p>
 [      3049] </span>
 [      3050] <span
@@ -3101,7 +3101,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3053] "bolao"
 [      3054] >
 [      3055] <p>
-[      3056] 39
+[      3056] 37
 [      3057] </p>
 [      3058] </span>
 [      3059] <span
@@ -3110,7 +3110,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3062] "bolao"
 [      3063] >
 [      3064] <p>
-[      3065] 47
+[      3065] 43
 [      3066] </p>
 [      3067] </span>
 [      3068] <span
@@ -3119,7 +3119,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3071] "bolao"
 [      3072] >
 [      3073] <p>
-[      3074] 53
+[      3074] 47
 [      3075] </p>
 [      3076] </span>
 [      3077] <span
@@ -3128,7 +3128,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3080] "bolao"
 [      3081] >
 [      3082] <p>
-[      3083] 54
+[      3083] 49
 [      3084] </p>
 [      3085] </span>
 [      3086] <span
@@ -3137,7 +3137,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3089] "bolao"
 [      3090] >
 [      3091] <p>
-[      3092] 58
+[      3092] 53
 [      3093] </p>
 [      3094] </span>
 [      3095] <span
@@ -3146,7 +3146,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3098] "bolao"
 [      3099] >
 [      3100] <p>
-[      3101] 61
+[      3101] 59
 [      3102] </p>
 [      3103] </span>
 [      3104] <span
@@ -3155,7 +3155,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3107] "bolao"
 [      3108] >
 [      3109] <p>
-[      3110] 64
+[      3110] 66
 [      3111] </p>
 [      3112] </span>
 [      3113] <span
@@ -3164,7 +3164,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3116] "bolao"
 [      3117] >
 [      3118] <p>
-[      3119] 68
+[      3119] 67
 [      3120] </p>
 [      3121] </span>
 [      3122] <span
@@ -3173,7 +3173,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3125] "bolao"
 [      3126] >
 [      3127] <p>
-[      3128] 69
+[      3128] 75
 [      3129] </p>
 [      3130] </span>
 [      3131] <span
@@ -3182,7 +3182,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3134] "bolao"
 [      3135] >
 [      3136] <p>
-[      3137] 71
+[      3137] 77
 [      3138] </p>
 [      3139] </span>
 [      3140] <span
@@ -3191,7 +3191,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3143] "bolao"
 [      3144] >
 [      3145] <p>
-[      3146] 74
+[      3146] 79
 [      3147] </p>
 [      3148] </span>
 [      3149] </div>
@@ -3210,7 +3210,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3162] <a
 [      3163] href
 [      3164] =
-[      3165] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=2"
+[      3165] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=2"
 [      3166] >
 [      3167] 2
 [      3168] </a>
@@ -3219,7 +3219,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3171] <a
 [      3172] href
 [      3173] =
-[      3174] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=3"
+[      3174] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=3"
 [      3175] >
 [      3176] 3
 [      3177] </a>
@@ -3228,7 +3228,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3180] <a
 [      3181] href
 [      3182] =
-[      3183] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=4"
+[      3183] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=4"
 [      3184] >
 [      3185] 4
 [      3186] </a>
@@ -3237,7 +3237,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3189] <a
 [      3190] href
 [      3191] =
-[      3192] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=5"
+[      3192] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=5"
 [      3193] >
 [      3194] 5
 [      3195] </a>
@@ -3246,7 +3246,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3198] <a
 [      3199] href
 [      3200] =
-[      3201] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=6"
+[      3201] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=6"
 [      3202] >
 [      3203] 6
 [      3204] </a>
@@ -3255,7 +3255,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3207] <a
 [      3208] href
 [      3209] =
-[      3210] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=7"
+[      3210] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=7"
 [      3211] >
 [      3212] 7
 [      3213] </a>
@@ -3264,7 +3264,7 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3216] <a
 [      3217] href
 [      3218] =
-[      3219] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=8"
+[      3219] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=8"
 [      3220] >
 [      3221] 8
 [      3222] </a>
@@ -3277,9 +3277,9 @@ Notice: Undefined variable: style in /home/httpd/htdocs/intralbr/newsite/resulta
 [      3229] <a
 [      3230] href
 [      3231] =
-[      3232] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01011900-18032017&page=40169"
+[      3232] "http://www.intralot.com.br/newsite/resultados/?jogo=keno-minas&busca=data&range=01012017-01052017&page=2733"
 [      3233] >
-[      3234] 40169
+[      3234] 2733
 [      3235] </a>
 [      3236] </li>
 [      3237] </ul>

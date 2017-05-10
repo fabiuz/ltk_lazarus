@@ -1,7 +1,7 @@
 object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   Left = 681
   Height = 376
-  Top = 209
+  Top = 151
   Width = 759
   Caption = 'Gerador Aleatório'
   ClientHeight = 376
@@ -22,15 +22,15 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     TabOrder = 0
     object Label1: TLabel
       Left = 8
-      Height = 20
+      Height = 17
       Top = 16
-      Width = 34
+      Width = 31
       Caption = 'Jogo:'
       ParentColor = False
     end
     object cmbJogo_Tipo: TComboBox
       Left = 48
-      Height = 32
+      Height = 29
       Top = 7
       Width = 160
       ItemHeight = 0
@@ -40,15 +40,15 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     end
     object Label2: TLabel
       Left = 216
-      Height = 20
+      Height = 17
       Top = 16
-      Width = 31
+      Width = 28
       Caption = 'com:'
       ParentColor = False
     end
     object cmbJogo_com: TComboBox
       Left = 248
-      Height = 32
+      Height = 29
       Top = 7
       Width = 64
       DropDownCount = 10
@@ -58,15 +58,15 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     end
     object Label3: TLabel
       Left = 392
-      Height = 20
+      Height = 17
       Top = 16
-      Width = 77
+      Width = 68
       Caption = 'Quantidade:'
       ParentColor = False
     end
     object cmbJogo_Quantidade: TComboBox
       Left = 472
-      Height = 32
+      Height = 29
       Top = 7
       Width = 72
       DropDownCount = 10
@@ -87,17 +87,17 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     end
     object Label4: TLabel
       Left = 320
-      Height = 20
+      Height = 17
       Top = 16
-      Width = 60
+      Width = 54
       Caption = 'números.'
       ParentColor = False
     end
     object Label5: TLabel
       Left = 552
-      Height = 20
+      Height = 17
       Top = 16
-      Width = 55
+      Width = 48
       Caption = 'bilhetes.'
       ParentColor = False
     end
@@ -105,23 +105,23 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
       Left = 8
       Height = 23
       Top = 48
-      Width = 152
+      Width = 141
       Caption = '&Alternar par e impar'
       TabOrder = 4
     end
   end
   object Panel2: TPanel
     Left = 0
-    Height = 270
+    Height = 273
     Top = 82
     Width = 665
     Align = alClient
-    ClientHeight = 270
+    ClientHeight = 273
     ClientWidth = 665
     TabOrder = 3
     object gradeJogos: TStringGrid
       Left = 1
-      Height = 268
+      Height = 271
       Top = 1
       Width = 663
       Align = alClient
@@ -134,8 +134,8 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 24
-    Top = 352
+    Height = 21
+    Top = 355
     Width = 759
     Panels = <    
       item
@@ -145,11 +145,11 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
   end
   object panel_Direito: TPanel
     Left = 665
-    Height = 270
+    Height = 273
     Top = 82
     Width = 94
     Align = alRight
-    ClientHeight = 270
+    ClientHeight = 273
     ClientWidth = 94
     TabOrder = 1
     object btnCopiar: TButton
@@ -185,7 +185,7 @@ object frmGerador_Aleatorio: TfrmGerador_Aleatorio
     object btnLimpar_Resultados: TButton
       Left = 11
       Height = 34
-      Top = 235
+      Top = 238
       Width = 75
       Anchors = [akRight, akBottom]
       Caption = '&Limpar resultados'

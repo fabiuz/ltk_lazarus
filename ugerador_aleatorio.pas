@@ -165,6 +165,7 @@ begin
   else
     self.Preencher_Grade;
 
+
 end;
 
 { TfrmGerador_Aleatorio }
@@ -1318,6 +1319,7 @@ begin
 end;
 
 procedure TJogoThread.Preencher_Grade_Lotomania;
+var bolasSorteadas: array of array of integer;
 begin
 
 end;

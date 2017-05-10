@@ -97,14 +97,15 @@ type
 
 		procedure CriarDiretorioGerado;
    procedure CriarNovoArquivo;
-	 function CriarNovoDiretorio: string;
-	 procedure GerarLinha;
+   function CriarNovoDiretorio: string;
+   procedure GerarLinha;
+
     procedure GerarLotoMania;
-		procedure GerarQuina;
-		procedure GerarQuina5Numeros;
-		procedure GerarQuina6Numeros;
-		procedure GerarQuina7Numeros;
-		procedure GravarArquivo;
+    procedure GerarQuina;
+    procedure GerarQuina5Numeros;
+    procedure GerarQuina6Numeros;
+    procedure GerarQuina7Numeros;
+    procedure GravarArquivo;
 
   public
     JogoTipo: string;
@@ -314,14 +315,14 @@ var
   uColuna1, uColuna2, uColuna3, uColuna4, uColuna5, uColuna6, uColuna7: integer;
 begin
 
-		  strTexto := '';
-		  ContadorLinha := 0;
-		  ContadorArquivo := 0;
+      strTexto := '';
+      ContadorLinha := 0;
+      ContadorArquivo := 0;
       ContadorArranjo := 0;
 
 
-		  CriarDiretorioGerado;
-		  CriarNovoArquivo;
+	CriarDiretorioGerado;
+	CriarNovoArquivo;
 
 	for uColuna1 := 1 to 80 do
 	for uColuna2 := uColuna1 + 1 to 80 do
@@ -404,15 +405,15 @@ begin
 	for uColuna3 := uColuna2 + 1 to 80 do
 	for uColuna4 := uColuna3 + 1 to 80 do
 	for uColuna5 := uColuna4 + 1 to 80 do
-  for uColuna6 := uColuna5 + 1 to 80 do
-  for uColuna7 := uColuna6 + 1 to 80 do begin
-      strTexto := 'QUINA;7;';
-      strTexto += NumeroUnderLine[uColuna1] + NumeroUnderline[uColuna2] + NumeroUnderLine[uColuna3];
-      strTexto += NumeroUnderLine[uColuna4] + NumeroUnderline[uColuna5] + NumeroUnderLine[uColuna6];
-      strTexto += NumeroUnderLine[uColuna7];
-      strTexto += NumeroCSV[uColuna1] + NumeroCSV[uColuna2] + NumeroCSV[uColuna3];
-      strTexto += NumeroCSV[uColuna4] + NumeroCSV[uColuna5] + NumeroCSV[uColuna6];
-      strTexto += NumeroCSV[uColuna7];
+        for uColuna6 := uColuna5 + 1 to 80 do
+        for uColuna7 := uColuna6 + 1 to 80 do begin
+            strTexto := 'QUINA;7;';
+            strTexto += NumeroUnderLine[uColuna1] + NumeroUnderline[uColuna2] + NumeroUnderLine[uColuna3];
+            strTexto += NumeroUnderLine[uColuna4] + NumeroUnderline[uColuna5] + NumeroUnderLine[uColuna6];
+            strTexto += NumeroUnderLine[uColuna7];
+            strTexto += NumeroCSV[uColuna1] + NumeroCSV[uColuna2] + NumeroCSV[uColuna3];
+            strTexto += NumeroCSV[uColuna4] + NumeroCSV[uColuna5] + NumeroCSV[uColuna6];
+            strTexto += NumeroCSV[uColuna7];
 
       //strTexto += Format('_%.2d_%.2d_%.2d_%.2d_%.2d_%.2d_%.2d;',
       //         [uColuna1, uColuna2, uColuna3, uColuna4, uColuna5, uColuna6, uColuna7]);
