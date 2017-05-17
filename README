@@ -6,13 +6,16 @@ Postado no github: 26/8/2016
 LTK - Analisador e gerador de jogos lotéricos.
 Este programa analisa jogos lotéricos da caixa e da intralot.
 
-Atualmente, está implementado:
-Um gerador aleatório de apostas para os jogos da caixa e para os jogos 'KENO', 'MINAS5' e 'LOTOMINAS' da intralot.
-Um extrator de resultados de jogos 'KENO', 'MINAS5' E 'LOTOMINAS' da intralot.
+[CARACTERÍSTICAS]
+Baixador de resultados de jogos da intralot: KENO, MINAS5 E LOTOMINAS;
+Gerador Aleatório dos jogos da intralot (KENO, MINAS5 E LOTOMINAS), e da loterias das caixas (LOTOFACIL, LOTOMANIA, QUINA, MEGASENA, DUPLASENA);
 
-Implementações futuras:
-Extrator de jogos da loteria da caixa.
-Inserção automática de dados diretamente no banco de dados dos resultados obtidos pelo extrator de resultados.
-Utilização de thread em rotinas que consome muito tempo para executar.
-Análise estatística dos resultados dos jogos.
+[PARA FAZER]
+Gerar todos os subconjuntos de um conjunto de bolas para todos os jogos. [IMPLEMENTADO SOMENTE PARA LOTOFACIL];
+Baixador de resultados dos jogos da loteria da caixa: [LOTOFACIL, LOTOMANIA, QUINA, MEGASENA, DUPLASENA];
+Reescrever várias classes e retirar classes denecessárias, cada coisa no seu lugar.
+O baixador de resultados gera a saída em formato csv, em breve terá outros formatos: json e xml.
 
+[OBSERVACAO]
+O baixador de resultados do site do intralot é muito rápido, ele utiliza o analisador html criado por mim, se a conexão caiu enquanto estiver baixando
+o conteúdo o analisador, rebaixa o conteúdo do arquivo.
