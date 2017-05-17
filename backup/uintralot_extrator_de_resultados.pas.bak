@@ -239,7 +239,6 @@ end;
 // são retornados.
 // Os tokens já foram separados, aqui, simplesmente, os tokens são validados
 // sintaticamente conforme descrito no site da intralot.
-
 function Tfb_Intralot_Resultados.extrair(var resultado_dos_jogos: TSTrings;tokens_html: TStrings): boolean;
 var
 			uTotal_de_Tokens: Integer;
@@ -282,6 +281,10 @@ begin
   // Vamos localizar o primeiro token que começa com '<div'
   uIndice := tokens_html.IndexOf('<div');
 
+
+  // O loop abaixo tem a finalidade de localizar dentro do conteúdo html
+  // a palavra formada pelos tokens html: <div class = "resultados >"
+  // Estes tokens indica o início do resultados dos jogos da site da intralot.
   while uIndice <= uTotal_de_Tokens do
   begin
     // Se os próximos quatros campos é igual a '<div', 'class', '=' e '"resultados"',
@@ -292,16 +295,17 @@ begin
       (tokens_html.Strings[uIndice + 3] = '"resultados"') and
       (tokens_html.Strings[uIndice + 4] = '>') then
     begin
-      // Apontar uIndice após o token '"resultados"'.
+      // Se encontrarmos o início, devemos apontar após o tag: '>'
       Inc(uIndice, 5);
       break;
     end;
 
-    // Aponta para os próximos 4 tokens.
+    // Vamos percorrer um token por vez, até encontrar o token inicial.
     Inc(uIndice, 1);
   end;
 
-  // Se o token não foi localizado uIndice apontará após uTotal_de_Tokens.
+  // Se uIndice é maior que 'uTotal_de_Tokens', quer dizer, que não foi encontrado
+  // Nenhum tokens de início de resultado.
   if uIndice > uTotal_de_Tokens then
   begin
     strErro := Format('Os tokens não foram localizados: ' +
@@ -309,10 +313,6 @@ begin
       QuotedStr('%s'), ['<div', 'class', '=', '"resultados"']);
     Exit(False);
   end;
-
-
-
-
 
   // Dentro de '<div class="resultados"' haverá vários jogos, para termos
   // certeza até onde iremos iremos percorrer até encontrar o tag de fechamento
@@ -331,6 +331,9 @@ begin
                 'ao tag de início: ''<div class="resultados"''';
      Exit(false);
   end;
+
+  // Aqui, uIndice após após o token '>', de
+
 
   // Se o intervalo inicial e final não existe, o servidor retorna uma mensagem no formato abaixo:
   // <div class="item_busca">Nenhum resultado encontrado!</div>'
@@ -382,6 +385,7 @@ begin
      Exit(False);
   end;
 
+  // O campo na posição 'uIndice + 7', indica o nome do jogo.
   strJogo := tokens_html[uIndice + 7];
   if not jogo_valido(strJogo) then
      Exit(False);

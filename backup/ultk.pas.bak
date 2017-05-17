@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  StdCtrls, SynHighlighterHTML, IdFTP;
+  StdCtrls, ComCtrls, SynHighlighterHTML, IdFTP,
+  uLotofacil_database;
 
 type
 
@@ -19,9 +20,9 @@ type
     Button2: TButton;
     btnGerador_Permutacao: TButton;
     btnAtualizar_Intralot: TButton;
+    Button3 : TButton;
     IdFTP1: TIdFTP;
-
-
+    StatusBar1 : TStatusBar;
     procedure btnAtualizar_IntralotClick(Sender: TObject);
     procedure btnGerador_combinatorio1Click(Sender: TObject);
     procedure btnGerador_combinatorioClick(Sender: TObject);
@@ -29,9 +30,12 @@ type
     procedure btnGerador_PermutacaoClick(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender : TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
   private
     { private declarations }
+    ltfDatabase: TLotofacilDatabase;
+    procedure lotofacilThreadStatus(qtGerados: LongInt);
   public
     { public declarations }
   end;
@@ -112,6 +116,16 @@ begin
   jogoLotofacil.Gerar15Numeros;
 end;
 
+procedure TForm1.Button3Click(Sender : TObject);
+begin
+  if ltfDatabase = nil then begin
+    ltfDatabase := TLotofacilDatabase.Create;
+  end;
+
+  ltfDatabase.onStatus := @self.lotofacilThreadStatus;
+  ltfDatabase.GerarLotofacil15Numeros;
+end;
+
 procedure TForm1.FormClose(Sender: TObject; var CloseAction: TCloseAction);
 begin
   if Assigned(FrmAtualizar) then
@@ -119,6 +133,11 @@ begin
     frmAtualizar.Free;
   end;
 
+end;
+
+procedure TForm1.lotofacilThreadStatus(qtGerados : LongInt);
+begin
+     statusBar1.Panels[0].Text := IntToStr(qtGerados);
 end;
 
 end.

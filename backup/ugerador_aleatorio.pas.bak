@@ -46,7 +46,11 @@ const
 
 type
 
-  { TJogoThread }
+  {
+   TJogoThread
+   Para evitar que a interface de usuário fica não-responsiva, criaremos
+   um thread.
+  }
 
   TJogoThread = class(TThread)
   public
@@ -73,6 +77,7 @@ type
     btnExportar: TButton;
     btnLimpar_Resultados: TButton;
     CheckListBox1 : TCheckListBox;
+    CheckListBox2 : TCheckListBox;
     chkAlternarParImpar: TCheckBox;
     cmbJogo_Tipo: TComboBox;
     cmbJogo_com: TComboBox;
@@ -83,6 +88,8 @@ type
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;
+    Label6 : TLabel;
+    Label7 : TLabel;
     PageControl1 : TPageControl;
     panel_Superior: TPanel;
     Panel2: TPanel;
@@ -97,26 +104,19 @@ type
     procedure btnLimpar_ResultadosClick(Sender: TObject);
     procedure cmbJogo_comChange(Sender: TObject);
 
-		procedure cmbJogo_QuantidadeKeyPress(Sender: TObject; var Key: char);
+    procedure cmbJogo_QuantidadeKeyPress(Sender: TObject; var Key: char);
     procedure cmbJogo_TipoChange(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
   private
-    strJogo_Tipo: string;
     strErro: string;
-    iJogo_com, iJogo_Quantidade: integer;
-
-    iMenor_Bola, iMaior_Bola: integer;
-
-    // Indica a quantidade de bolas, que compõe o jogo.
-    iQuantidade_de_Bolas: integer;
 
     // Estrutura que guarda o jogo selecionado.
     jogoInfo: TJogoInfo;
 
-    // JogoThread.
+    // Toda vez que o usuário clicar para gerar um novo resultado, iremos
+    // utilizar uma thread para evitar que a interface fique não-responsiva.
     jogoThread: TJogoThread;
-
 
     { private declarations }
     procedure Preencher_Jogos(Sender: TObject);

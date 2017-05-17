@@ -7,11 +7,14 @@ uses
   cthreads,
   cmem,
   {$ENDIF}{$ENDIF}
+  cthreads,
+  cmem,
   Interfaces, // this includes the LCL widgetset
-  Forms, uLtk, dmLtk, uGerador_Aleatorio, uBanco_de_Dados, lazcontrols,
+  Forms, uLtk, dmLtk, ugerador_aleatorio, uBanco_de_Dados, lazcontrols,
 	uAtualizar, uConversor_Minas5, uHtml_Analisador, uLotofacil,
 	ugerador_permutacao, uPermutador_Thread, uintralot_extrator,
-uIntralot_extrator_de_resultados, gerador_de_arranjo;
+uIntralot_extrator_de_resultados, gerador_de_arranjo, uLotofacilGerador, 
+ugerador_lotofacil;
 
 {$R *.res}
 
@@ -22,6 +25,7 @@ begin
   Application.CreateForm(TdmModulo, dmModulo);
   Application.CreateForm(TfrmGerador_Aleatorio, frmGerador_Aleatorio);
   Application.CreateForm(TfrmAtualizar, frmAtualizar);
+  Application.CreateForm(TForm2, Form2);
 			//Application.CreateForm(TfrmIntralot_Extrator, frmIntralot_Extrator);
    {
   Application.CreateForm(TfrmGerador_Combinacao,

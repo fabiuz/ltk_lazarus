@@ -7,6 +7,8 @@ uses
   cthreads,
   cmem,
   {$ENDIF}{$ENDIF}
+  cthreads,
+  cmem,
   Interfaces, // this includes the LCL widgetset
   Forms, uLtk, dmLtk, ugerador_aleatorio, uBanco_de_Dados, lazcontrols,
 	uAtualizar, uConversor_Minas5, uHtml_Analisador, uLotofacil,

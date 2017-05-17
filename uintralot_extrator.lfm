@@ -9,19 +9,20 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
   OnClose = FormClose
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '1.6.4.0'
+  Visible = False
   object GroupBox1: TGroupBox
     Left = 8
     Height = 105
     Top = 56
     Width = 280
     Caption = '&Por número de jogo:'
-    ClientHeight = 84
+    ClientHeight = 86
     ClientWidth = 276
     TabOrder = 0
     object edJogo_Inicial: TLabeledEdit
       Left = 24
-      Height = 29
+      Height = 27
       Top = 8
       Width = 112
       EditLabel.AnchorSideTop.Control = edJogo_Inicial
@@ -30,7 +31,7 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
       EditLabel.AnchorSideBottom.Control = edJogo_Inicial
       EditLabel.AnchorSideBottom.Side = asrBottom
       EditLabel.Left = 5
-      EditLabel.Height = 19
+      EditLabel.Height = 17
       EditLabel.Top = 13
       EditLabel.Width = 16
       EditLabel.Caption = 'De'
@@ -40,7 +41,7 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     end
     object edJogo_Final: TLabeledEdit
       Left = 24
-      Height = 29
+      Height = 27
       Top = 46
       Width = 112
       EditLabel.AnchorSideTop.Control = edJogo_Final
@@ -48,10 +49,10 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
       EditLabel.AnchorSideRight.Control = edJogo_Final
       EditLabel.AnchorSideBottom.Control = edJogo_Final
       EditLabel.AnchorSideBottom.Side = asrBottom
-      EditLabel.Left = 14
-      EditLabel.Height = 19
+      EditLabel.Left = 15
+      EditLabel.Height = 17
       EditLabel.Top = 51
-      EditLabel.Width = 7
+      EditLabel.Width = 6
       EditLabel.Caption = 'a'
       EditLabel.ParentColor = False
       LabelPosition = lpLeft
@@ -73,7 +74,7 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     Top = 55
     Width = 272
     Caption = 'Por data'
-    ClientHeight = 84
+    ClientHeight = 86
     ClientWidth = 268
     TabOrder = 1
     object btnGerar_por_Data: TButton
@@ -87,12 +88,10 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     end
     object dtData_Inicial: TDateEdit
       Left = 24
-      Height = 29
+      Height = 27
       Top = 8
       Width = 112
       CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames, dsShowWeekNumbers]
-      OKCaption = 'OK'
-      CancelCaption = 'Cancel'
       DefaultToday = True
       DateOrder = doDMY
       ButtonWidth = 23
@@ -105,12 +104,10 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     end
     object dtData_Final: TDateEdit
       Left = 152
-      Height = 29
+      Height = 27
       Top = 8
       Width = 112
       CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames, dsShowWeekNumbers]
-      OKCaption = 'OK'
-      CancelCaption = 'Cancel'
       DefaultToday = True
       DateOrder = doDMY
       ButtonWidth = 23
@@ -123,7 +120,7 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     end
     object Label1: TLabel
       Left = 0
-      Height = 19
+      Height = 17
       Top = 14
       Width = 16
       Caption = 'De'
@@ -131,9 +128,9 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     end
     object Label2: TLabel
       Left = 144
-      Height = 19
+      Height = 17
       Top = 14
-      Width = 7
+      Width = 6
       Caption = 'a'
       ParentColor = False
     end
@@ -144,12 +141,12 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     Top = 55
     Width = 184
     Caption = 'Escolha o jogo:'
-    ClientHeight = 83
+    ClientHeight = 85
     ClientWidth = 180
     TabOrder = 2
     object cmbJogoTipo: TComboBox
       Left = 8
-      Height = 31
+      Height = 29
       Top = 7
       Width = 160
       ItemHeight = 0
@@ -164,12 +161,12 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     Width = 752
     Anchors = [akTop, akLeft, akRight]
     Caption = 'Diretório de extração dos jogos:'
-    ClientHeight = 36
+    ClientHeight = 38
     ClientWidth = 748
     TabOrder = 3
     object edDiretorio: TEdit
       Left = 8
-      Height = 29
+      Height = 27
       Top = 0
       Width = 667
       Alignment = taCenter
@@ -205,12 +202,12 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     Width = 753
     Anchors = [akTop, akLeft, akRight]
     Caption = 'Página geradas:'
-    ClientHeight = 156
+    ClientHeight = 158
     ClientWidth = 749
     TabOrder = 5
     object mmPagina_Gerada: TMemo
       Left = 0
-      Height = 156
+      Height = 158
       Top = 0
       Width = 749
       Align = alClient
@@ -225,12 +222,12 @@ object frmIntralot_Extrator: TfrmIntralot_Extrator
     Width = 753
     Anchors = [akTop, akLeft, akRight]
     Caption = 'Conteúdo extraído:'
-    ClientHeight = 212
+    ClientHeight = 214
     ClientWidth = 749
     TabOrder = 6
     object grBolas_Extraidas: TStringGrid
       Left = 0
-      Height = 212
+      Height = 214
       Top = 0
       Width = 749
       Align = alClient

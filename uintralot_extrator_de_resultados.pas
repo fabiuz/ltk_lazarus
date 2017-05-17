@@ -274,7 +274,7 @@ begin
   begin
     strErro := 'Não foi possível criar lista de resultados.';
     Exit(False);
-	end;
+  end;
 
   cabecalho_existe := false;
 

@@ -45,7 +45,7 @@
         <PackageName Value="LCL"/>
       </Item5>
     </RequiredPackages>
-    <Units Count="16">
+    <Units Count="17">
       <Unit0>
         <Filename Value="ltk.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -145,6 +145,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uLotofacilGerador"/>
       </Unit15>
+      <Unit16>
+        <Filename Value="ulotofacil_database.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit16>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
